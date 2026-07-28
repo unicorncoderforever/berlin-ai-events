@@ -18,27 +18,54 @@
       "enabled": true
     },
     {
-      "name": "AI Agents Berlin (Luma)",
+      "name": "PyData Berlin",
+      "url": "https://www.meetup.com/pydata-berlin/events/ical/",
+      "note": "Monthly meetup, third Wednesday, rotating venues — data/ML crowd that overlaps heavily with AI builders.",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
+    },
+    {
+      "name": "Berlin AI, ML & Computer Vision Meetup (Voxel51)",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/ical/",
+      "note": "Mostly virtual sessions — enable if you want online events in the calendar too; disabled by default to keep the site in-person-focused.",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": true,
+      "enabled": true
+    },
+    {
+      "name": "GDG Berlin (AI Builders Meetup)",
       "url": "PASTE_LUMA_ICAL_URL_HERE",
-      "note": "Open https://luma.com/aiagentsberlin -> Subscribe -> copy iCal URL, paste above, set enabled=true",
-      "src": "luma.com",
+      "note": "GDG Berlin hosts on gdg.community.dev (no chapter-level iCal), but their AI Builders Meetups register via Luma — subscribe to the organizer's Luma calendar linked from a recent event page and paste the iCal URL here.",
+      "src": "gdg.community.dev",
       "defaultType": "meetup",
       "eco": false,
       "enabled": false
     },
     {
+      "name": "AI Agents Berlin (Luma)",
+      "url": "https://api.luma.com/ics/get?entity=calendar&id=cal-rqDKfplmbufo7VE",
+      "note": "Open https://luma.com/aiagentsberlin -> Subscribe -> copy iCal URL, paste above, set enabled=true",
+      "src": "luma.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
+    },
+    {
       "name": "{Tech: Europe} (Luma)",
-      "url": "PASTE_LUMA_ICAL_URL_HERE",
+      "url": "https://api.luma.com/ics/get?entity=calendar&id=cal-qyEpCltsspbMoJR",
       "note": "Open https://luma.com/tech-europe -> Subscribe -> copy iCal URL. Calendar covers several EU cities; the updater keeps only events whose location mentions Berlin.",
       "src": "luma.com",
       "defaultType": "hackathon",
       "eco": false,
-      "enabled": false,
+      "enabled": true,
       "berlinOnly": true
     },
     {
       "name": "Vector Space Meetup / Qdrant (Luma)",
-      "url": "PASTE_LUMA_ICAL_URL_HERE",
+      "url": "https://api.luma.com/ics/get?entity=calendar&id=cal-RECcDoH3YZGpLeD",
       "note": "Open https://luma.com/vsm-berlin -> Subscribe -> copy iCal URL, set enabled=true",
       "src": "luma.com",
       "defaultType": "meetup",
