@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Events in Berlin 2026 — Conferences, Meetups & Hackathons Calendar</title>
+<meta name="description" content="A living calendar of AI events in Berlin: GTC Berlin, MLcon, AI Tinkerers, hackathons and more. Auto-updated every 2 days from organizer feeds — with an ecosystem tracker and DevRel playbook.">
+<!-- Replace YOUR-DOMAIN with your real Vercel domain after deploying -->
+<link rel="canonical" href="https://YOUR-DOMAIN.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Events in Berlin 2026 — Conferences, Meetups & Hackathons">
+<meta property="og:description" content="Every Berlin room where AI builders gather. Self-updating calendar of conferences, meetups & hackathons — refreshed every 2 days from organizer feeds.">
+<meta property="og:url" content="https://YOUR-DOMAIN.vercel.app/">
+<meta property="og:site_name" content="Berlin AI Builders — DevRel Calendar">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI Events in Berlin 2026 — Conferences, Meetups & Hackathons">
+<meta name="twitter:description" content="Self-updating calendar of Berlin AI events, refreshed every 2 days from organizer feeds.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F1F2EF;
+  --surface:#FFFFFF;
+  --surface-2:#F7F8F5;
+  --ink:#191B1E;
+  --muted:#5B6066;
+  --line:#D9DBD5;
+  --yellow:#F0CA00;
+  --yellow-ink:#191B1E;
+  --sign:#10457F;          /* U-Bahn station sign blue */
+  --sign-ink:#FFFFFF;
+  --conf:#D8431F;          /* U2 red */
+  --meetup:#4E7F35;        /* U1 green, darkened */
+  --hack:#7A5DA8;          /* U6 violet */
+  --eco:#0E7C86;           /* teal for ecosystem tags */
+  --unconf:#8A6D00;
+  --shadow:0 1px 2px rgba(20,22,25,.06),0 6px 18px rgba(20,22,25,.05);
+  --radius:10px;
+}
+html.dark{
+  --bg:#141518;
+  --surface:#1D1F23;
+  --surface-2:#24262B;
+  --ink:#ECEDEE;
+  --muted:#9BA0A6;
+  --line:#33363C;
+  --yellow:#F0CA00;
+  --sign:#1B5EA6;
+  --conf:#F06A45;
+  --meetup:#8CBF6A;
+  --hack:#A98FD6;
+  --eco:#4FB8C1;
+  --unconf:#D9B23B;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 22px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:16px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+.mono{font-family:"IBM Plex Mono",monospace}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:50;
+  background:var(--bg);
+  border-bottom:1px solid var(--line);
+}
+.nav{display:flex;align-items:center;gap:18px;height:58px}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Archivo",sans-serif;font-weight:800;letter-spacing:.02em;font-size:15px;background:none;border:0;color:var(--ink);cursor:pointer;padding:0}
+.brand .dot{width:22px;height:22px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;font-size:12px;color:var(--yellow-ink);font-weight:900}
+.brand span.sub{color:var(--muted);font-weight:600}
+.nav-links{margin-left:auto;display:flex;gap:4px;align-items:center}
+.nav-links button{
+  font-family:inherit;font-size:14px;font-weight:600;color:var(--muted);
+  padding:7px 11px;border-radius:7px;background:none;border:0;cursor:pointer;
+}
+.nav-links button:hover{color:var(--ink);background:var(--surface-2)}
+#themeToggle.nav-btn, #themeToggle{
+  border:1px solid var(--line) !important;background:var(--surface) !important;color:var(--ink);
+  font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:7px;cursor:pointer;
+}
+#themeToggle:hover{border-color:var(--muted)}
+
+/* ---------- hero ---------- */
+.hero{padding:56px 0 40px;border-bottom:1px solid var(--line)}
+.hero h1{
+  font-family:"Archivo",sans-serif;
+  font-variation-settings:"wdth" 118;
+  font-weight:850;line-height:1.04;letter-spacing:-.01em;
+  font-size:clamp(34px,5.4vw,58px);
+  max-width:19ch;
+}
+.hero h1 em{font-style:normal;box-shadow:inset 0 -.34em var(--yellow)}
+.hero p.lede{margin-top:18px;max-width:62ch;color:var(--muted);font-size:17px}
+.hero-meta{margin-top:28px;display:flex;flex-wrap:wrap;gap:14px;align-items:stretch}
+.next-up{
+  background:var(--sign);color:var(--sign-ink);
+  border-radius:var(--radius);padding:14px 18px;min-width:250px;
+  display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow);
+}
+.next-up .k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.75;font-weight:600}
+.next-up .v{font-family:"Archivo",sans-serif;font-weight:800;font-size:17px;line-height:1.25}
+.next-up .d{font-size:13px;opacity:.85}
+.stat{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 18px;min-width:118px;box-shadow:var(--shadow);
+}
+.stat .n{font-family:"Archivo",sans-serif;font-weight:850;font-size:26px;line-height:1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:4px}
+
+/* ---------- section headers as station signs ---------- */
+section{padding:52px 0;scroll-margin-top:70px}
+#thisweek{scroll-margin-top:70px}
+.nav-links button.active{color:var(--ink);background:var(--surface-2);box-shadow:inset 0 -3px var(--yellow)}
+.sign-h{
+  display:inline-flex;align-items:center;gap:12px;
+  background:var(--sign);color:var(--sign-ink);
+  padding:8px 18px 9px;border-radius:6px;
+  font-family:"Archivo",sans-serif;font-weight:800;letter-spacing:.10em;
+  text-transform:uppercase;font-size:16px;
+}
+.sign-h .u{background:#fff;color:var(--sign);font-size:12px;font-weight:900;padding:1px 6px;border-radius:3px;letter-spacing:.05em}
+.section-note{margin-top:12px;color:var(--muted);font-size:14.5px;max-width:68ch}
+
+/* ---------- this week: transit line ---------- */
+#thisweek{padding-top:44px}
+.line-list{margin-top:26px;position:relative;padding-left:34px}
+.line-list::before{
+  content:"";position:absolute;left:10px;top:8px;bottom:8px;width:6px;
+  background:var(--yellow);border-radius:3px;
+}
+.stop{position:relative;padding:9px 0 9px 6px;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline}
+.stop::before{
+  content:"";position:absolute;left:-31px;top:16px;width:14px;height:14px;border-radius:50%;
+  background:var(--surface);border:4px solid var(--ink);
+}
+html.dark .stop::before{background:var(--bg)}
+.stop .date{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;color:var(--muted);min-width:64px}
+.stop a{font-weight:600;text-decoration:none;font-size:15.5px}
+.stop a:hover{box-shadow:inset 0 -2px var(--yellow)}
+.stop .tag{font-size:11.5px;font-weight:600;letter-spacing:.04em;color:var(--muted)}
+.empty-week{margin-top:22px;color:var(--muted);font-size:15px;background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:18px}
+
+/* ---------- filters ---------- */
+.filters{margin-top:24px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{
+  border:1px solid var(--line);background:var(--surface);color:var(--muted);
+  font:inherit;font-size:13.5px;font-weight:600;padding:7px 14px;border-radius:999px;cursor:pointer;
+}
+.chip:hover{border-color:var(--muted);color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+label.chk{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--muted);cursor:pointer;margin-left:6px}
+label.chk input{accent-color:var(--sign);width:15px;height:15px}
+
+/* ---------- calendar cards ---------- */
+.month{margin-top:38px}
+.month-h{
+  display:inline-block;background:var(--sign);color:var(--sign-ink);
+  font-family:"Archivo",sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.12em;
+  font-size:13.5px;padding:6px 14px;border-radius:5px;
+}
+.cards{margin-top:16px;display:grid;gap:12px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;box-shadow:var(--shadow);
+  display:grid;grid-template-columns:78px 1fr;gap:4px 18px;
+  border-left:5px solid var(--muted);
+}
+.card.conference{border-left-color:var(--conf)}
+.card.meetup{border-left-color:var(--meetup)}
+.card.hackathon{border-left-color:var(--hack)}
+.card .when{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;padding-top:3px;color:var(--muted)}
+.card .badges{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-bottom:2px}
+.badge{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:2px 8px;border-radius:4px}
+.badge.type-conference{background:color-mix(in srgb,var(--conf) 14%,transparent);color:var(--conf)}
+.badge.type-meetup{background:color-mix(in srgb,var(--meetup) 16%,transparent);color:var(--meetup)}
+.badge.type-hackathon{background:color-mix(in srgb,var(--hack) 16%,transparent);color:var(--hack)}
+.badge.eco{background:color-mix(in srgb,var(--eco) 14%,transparent);color:var(--eco)}
+.badge.unconfirmed{background:color-mix(in srgb,var(--unconf) 16%,transparent);color:var(--unconf)}
+.badge.confirmed{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.card h3{grid-column:2;font-family:"Archivo",sans-serif;font-weight:800;font-size:17.5px;line-height:1.25}
+.card .venue{grid-column:2;font-size:13.5px;color:var(--muted);font-weight:500}
+.card .desc{grid-column:2;font-size:14.5px;margin-top:4px}
+.card .warn{grid-column:2;font-size:13px;margin-top:6px;color:var(--unconf);font-weight:500}
+.card .src{grid-column:2;margin-top:8px}
+.card .src a{font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:600;text-decoration:none;color:var(--sign)}
+html.dark .card .src a{color:#7FB2E8}
+.card .src a:hover{text-decoration:underline}
+.count-note{margin-top:20px;font-size:13.5px;color:var(--muted)}
+
+/* ---------- always-on ---------- */
+.series-grid{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.series{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px;
+}
+.series .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.series h3{font-family:"Archivo",sans-serif;font-weight:800;font-size:16px}
+.series .cad{font-size:12.5px;color:var(--muted);font-family:"IBM Plex Mono",monospace}
+.series p{font-size:14px}
+.series a{font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:600;text-decoration:none;color:var(--sign);margin-top:auto;padding-top:6px}
+html.dark .series a{color:#7FB2E8}
+.series a:hover{text-decoration:underline}
+
+/* ---------- ecosystem ---------- */
+.eco-list{margin-top:24px;display:grid;gap:10px}
+details.vendor{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+}
+details.vendor summary{
+  list-style:none;cursor:pointer;padding:15px 18px;
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+}
+details.vendor summary::-webkit-details-marker{display:none}
+details.vendor summary .name{font-family:"Archivo",sans-serif;font-weight:800;font-size:16.5px}
+details.vendor summary .cat{font-size:13px;color:var(--muted)}
+details.vendor summary .st{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted)}
+details.vendor summary .arr{color:var(--muted);transition:transform .15s}
+details.vendor[open] summary .arr{transform:rotate(90deg)}
+details.vendor .body{padding:0 18px 16px;border-top:1px solid var(--line);font-size:14.5px}
+details.vendor .body p{padding-top:12px}
+details.vendor .body a{color:var(--sign);font-weight:600;text-decoration:none}
+html.dark details.vendor .body a{color:#7FB2E8}
+details.vendor .body a:hover{text-decoration:underline}
+
+/* ---------- playbook ---------- */
+.rhythm{margin-top:26px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.week{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px;box-shadow:var(--shadow);
+}
+.week .wk{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:var(--muted)}
+.week .mode{display:inline-block;margin-top:6px;font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:2px 8px;border-radius:4px}
+.mode.irl{background:color-mix(in srgb,var(--meetup) 16%,transparent);color:var(--meetup)}
+.mode.online{background:color-mix(in srgb,var(--sign) 14%,transparent);color:var(--sign)}
+html.dark .mode.online{color:#7FB2E8}
+.week h3{font-family:"Archivo",sans-serif;font-weight:800;font-size:16px;margin-top:8px}
+.week p{font-size:13.5px;color:var(--muted);margin-top:5px}
+.idea-grid{margin-top:18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.idea{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;box-shadow:var(--shadow);
+}
+.idea .meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.lift{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--surface-2);border:1px solid var(--line);color:var(--muted)}
+.idea h3{font-family:"Archivo",sans-serif;font-weight:800;font-size:16px}
+.idea .role{font-size:12.5px;color:var(--muted);font-weight:600;margin-top:2px}
+.idea p{font-size:14px;margin-top:8px}
+.idea .eg{font-size:13.5px;margin-top:8px;padding:10px 12px;background:var(--surface-2);border-radius:7px;color:var(--muted)}
+.idea .eg b{color:var(--ink);font-weight:600}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:30px 0 46px;margin-top:20px}
+footer p{font-size:13px;color:var(--muted);max-width:74ch}
+
+@media (max-width:640px){
+  .card{grid-template-columns:1fr}
+  .card .when{padding-top:0}
+  .card .badges,.card h3,.card .venue,.card .desc,.card .warn,.card .src{grid-column:1}
+  .nav-links button:not(:last-child){padding:7px 7px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  details.vendor summary .arr{transition:none}
+}
+:focus-visible{outline:2px solid var(--sign);outline-offset:2px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <button class="brand" type="button" data-target="top"><span class="dot">B</span>Berlin AI Builders&nbsp;<span class="sub">DevRel Calendar</span></button>
+    <nav class="nav-links" aria-label="Sections">
+      <button type="button" data-target="calendar">Calendar</button>
+      <button type="button" data-target="ecosystem">Ecosystem</button>
+      <button type="button" data-target="playbook">Playbook</button>
+      <button id="themeToggle" type="button">Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <h1>Every <em>Berlin</em> room where AI builders and startups gather.</h1>
+      <p class="lede">Conferences, recurring meetups, and hackathons worth tracking for DevRel work with AI agent builders and founders in Berlin — plus a playbook for keeping a steady 2 in-person + 2 online cadence every month.</p>
+      <div class="hero-meta">
+        <div class="next-up">
+          <span class="k">Next up</span>
+          <span class="v" id="nextUpName">—</span>
+          <span class="d" id="nextUpDate">—</span>
+        </div>
+        <div class="stat"><div class="n" id="statConf">0</div><div class="l">Conferences</div></div>
+        <div class="stat"><div class="n" id="statMeet">0</div><div class="l">Meetups</div></div>
+        <div class="stat"><div class="n" id="statHack">0</div><div class="l">Hackathons</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THIS WEEK -->
+  <section id="thisweek" aria-labelledby="tw-h">
+    <div class="wrap">
+      <h2 class="sign-h" id="tw-h"><span class="u">U1</span>This Week</h2>
+      <p class="section-note">Next 7 days, fast scan — each stop is one event.</p>
+      <div id="weekLine" class="line-list"></div>
+    </div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section id="calendar" aria-labelledby="cal-h">
+    <div class="wrap">
+      <h2 class="sign-h" id="cal-h"><span class="u">U2</span>Calendar</h2>
+      <p class="section-note">Data refreshed <span class="data-stamp">2026-07-28</span> (auto-updates every 2 days from organizer feeds). Items marked <strong>unconfirmed</strong> are inferred from past patterns or not yet locked in by the organizer — verify at the source link before you plan around them.</p>
+
+      <div class="filters" role="group" aria-label="Filter events">
+        <button class="chip on" data-filter="all">All</button>
+        <button class="chip" data-filter="conference">Conferences</button>
+        <button class="chip" data-filter="meetup">Meetups</button>
+        <button class="chip" data-filter="hackathon">Hackathons</button>
+        <label class="chk"><input type="checkbox" id="ecoOnly"> Ecosystem only</label>
+        <label class="chk"><input type="checkbox" id="showUnconfirmed" checked> Include unconfirmed</label>
+      </div>
+
+      <div id="calendarRoot"></div>
+      <p class="count-note" id="countNote"></p>
+
+      <!-- ALWAYS-ON -->
+      <div class="month" style="margin-top:52px">
+        <span class="month-h">Always-on series</span>
+        <p class="section-note">No locked forward date — check the source before planning.</p>
+        <div class="series-grid" id="seriesGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSYSTEM -->
+  <section id="ecosystem" aria-labelledby="eco-h">
+    <div class="wrap">
+      <h2 class="sign-h" id="eco-h"><span class="u">U6</span>Ecosystem</h2>
+      <p class="section-note">AI-infra vendors with a Berlin footprint — the companies whose events, sponsorships, and meetup slots matter for competitive and partnership tracking. Companies with nothing currently scheduled are kept as a watchlist rather than dropped.</p>
+      <div class="eco-list" id="ecoList"></div>
+    </div>
+  </section>
+
+  <!-- PLAYBOOK -->
+  <section id="playbook" aria-labelledby="pb-h">
+    <div class="wrap">
+      <h2 class="sign-h" id="pb-h"><span class="u">U8</span>Playbook</h2>
+      <p class="section-note">The goal: <strong>2 in-person + 2 online</strong> events every month. Use the calendar above to anchor the in-person slots, and rotate through this idea bank so the cadence doesn't collapse into the same four events on repeat.</p>
+
+      <div class="rhythm">
+        <div class="week">
+          <span class="wk">WEEK 1</span><br><span class="mode online">Online</span>
+          <h3>Office hours</h3>
+          <p>Low-lift recurring anchor — keeps a monthly touchpoint even in a busy week.</p>
+        </div>
+        <div class="week">
+          <span class="wk">WEEK 2</span><br><span class="mode irl">In-person</span>
+          <h3>Ride an existing meetup</h3>
+          <p>Sponsor a slot at AI Tinkerers Berlin, the GDG AI Builders Meetup, or a Merantix AI Campus session — borrowed audience, low setup cost.</p>
+        </div>
+        <div class="week">
+          <span class="wk">WEEK 3</span><br><span class="mode irl">In-person</span>
+          <h3>Owned build night or dinner</h3>
+          <p>Your own room, your own agenda — the highest-signal slot of the month. Ojin AIxHaus and the AI Campus both host community events.</p>
+        </div>
+        <div class="week">
+          <span class="wk">WEEK 4</span><br><span class="mode online">Online</span>
+          <h3>Deep-dive or AMA</h3>
+          <p>Content that outlives the event — publish the recording as evergreen material.</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:44px;font-family:'Archivo',sans-serif;font-weight:800;font-size:20px">Idea bank — rotate so it doesn't feel like reruns</h3>
+      <div class="idea-grid">
+        <div class="idea">
+          <div class="meta"><span class="mode irl">In-person</span><span class="lift">Medium lift</span></div>
+          <h3>Build night / workshop</h3>
+          <div class="role">Owned monthly anchor</div>
+          <p>Host 20–40 agent builders for a hands-on session — laptops open, live coding, TAs roaming. Mitte co-working spaces and the AI Campus rent well for this.</p>
+          <div class="eg"><b>e.g.</b> "Give your agent a memory that survives restarts" — build a stateful agent live, ship a working demo by the end of the night.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode irl">In-person</span><span class="lift">Low lift</span></div>
+          <h3>Sponsor a slot at an existing meetup</h3>
+          <div class="role">Easiest second in-person slot most months</div>
+          <p>Don't run the room — rent 15–20 minutes of it. Bring a demo, not a pitch. AI Tinkerers Berlin runs 8-minute demo slots; the GDG AI Builders Meetup takes community talks.</p>
+          <div class="eg"><b>e.g.</b> An 8-minute demo at AI Tinkerers on a debugging story from a real customer integration.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode irl">In-person</span><span class="lift">High lift</span></div>
+          <h3>Hackathon sponsor table + bounty</h3>
+          <div class="role">Quarterly, timed to {Tech: Europe} editions</div>
+          <p>Sponsor a challenge track with a prize, staff a table with 1–2 engineers for live support, and require the winning entry to actually use your product. {Tech: Europe} already runs this model with OpenAI, ElevenLabs, and Weaviate.</p>
+          <div class="eg"><b>e.g.</b> A "best production-ready agent" bounty at the next Berlin {Tech: Europe} hackathon — winner demos on your blog the following week.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode irl">In-person</span><span class="lift">Low lift</span></div>
+          <h3>Small technical dinner</h3>
+          <div class="role">Good relationship-depth swap-in when a build night doesn't fit</div>
+          <p>10–15 people, invite-only, no slides. Structured discussion prompts about what's actually breaking in their agent stacks.</p>
+          <div class="eg"><b>e.g.</b> A "state &amp; memory in production agents" dinner in Kreuzberg with 12 engineering leads already building on your platform.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode irl">In-person</span><span class="lift">High lift</span></div>
+          <h3>Speak or sponsor at a major conference</h3>
+          <div class="role">1–2× per quarter, not a monthly slot</div>
+          <p>Apply to speak at MLcon Berlin, GTC Berlin, or the Chatbot Summit — reach is much larger than a meetup, but lead time is 2–3 months.</p>
+          <div class="eg"><b>e.g.</b> A submitted CFP for MLcon Berlin (Nov 16–20) on agent state and memory patterns at scale.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode online">Online</span><span class="lift">Low lift</span></div>
+          <h3>Live office hours</h3>
+          <div class="role">Owned monthly (or biweekly) anchor</div>
+          <p>Recurring live Q&amp;A on Discord/YouTube with an engineer on call — bring real questions, debug live, no deck. Schedule for CET afternoons to catch both EU and US-morning audiences.</p>
+          <div class="eg"><b>e.g.</b> "Ask the team anything" — 30 minutes, same time every month, recorded and clipped afterward.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode online">Online</span><span class="lift">Medium lift</span></div>
+          <h3>Technical deep-dive webinar</h3>
+          <div class="role">Monthly content anchor</div>
+          <p>A recorded or live walkthrough of one pattern, done properly — architecture diagram, real code, real tradeoffs.</p>
+          <div class="eg"><b>e.g.</b> "Agent memory architecture: what actually needs to persist, and what doesn't" — 40-minute deep dive + Q&amp;A.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode online">Online</span><span class="lift">Medium lift</span></div>
+          <h3>Async build challenge</h3>
+          <div class="role">Good virtual stand-in for a hackathon, ~quarterly</div>
+          <p>A themed weekend challenge — submissions via GitHub/Discord over 3–5 days, judged async, winners announced on a livestream.</p>
+          <div class="eg"><b>e.g.</b> "Build the fastest agent recall loop" weekend challenge, judged by response latency + correctness.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode online">Online</span><span class="lift">Low lift</span></div>
+          <h3>X Spaces / Discord AMA</h3>
+          <div class="role">Easiest second online slot most months</div>
+          <p>Bring a customer or partner who's shipped something real and let the audience ask them anything for 30 minutes.</p>
+          <div class="eg"><b>e.g.</b> An AMA with a Berlin startup's founding engineer on migrating their agent's retrieval layer to your product in production.</div>
+        </div>
+        <div class="idea">
+          <div class="meta"><span class="mode online">Online</span><span class="lift">Medium lift</span></div>
+          <h3>Practitioner interview series</h3>
+          <div class="role">Evergreen — batch-record several, release monthly</div>
+          <p>Short recorded conversations with people actually building agents — publish as a YouTube/podcast series with lasting SEO value.</p>
+          <div class="eg"><b>e.g.</b> "How we built it" — a 20-minute conversation with a Berlin agent-builder customer, released monthly.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Feed events refresh automatically every 2 days (last run: <span class="data-stamp">2026-07-28</span>); curated entries are hand-researched and several are inferred from recurring patterns rather than confirmed listings. Dates and venues change — re-check at the source link before committing sponsorship budget or travel.</p>
+  </div>
+</footer>
+
+<script>
+/* ================= DATA ================= */
+/* type: conference | meetup | hackathon
+   eco: true if it's a vendor/ecosystem event
+   confirmed: false → shown with "unconfirmed" badge and its own toggle
+   date: ISO start date used for This Week + sorting; dateLabel is what's displayed */
+let EVENTS = [
+  {
+    date:"2026-08-13", dateLabel:"Aug 13", month:"August 2026",
+    title:"AI Tinkerers Berlin — August Meetup",
+    venue:"Berlin (venue announced to registrants)",
+    type:"meetup", eco:false, confirmed:true,
+    desc:"Hands-on demo night for practitioners building with foundation models — 8-minute talks/demos, agents, RAG, MLOps. Application-based RSVP.",
+    url:"https://berlin.aitinkerers.org/", src:"berlin.aitinkerers.org"
+  },
+  {
+    date:"2026-09-15", dateLabel:"Sep 15", month:"September 2026",
+    title:"buildersklub Berlin — September Meetup",
+    venue:"Berlin",
+    type:"meetup", eco:false, confirmed:true,
+    desc:"Monthly meetup for decision-makers and hands-on builders on AI and automation in real workflows — real stories, no pitches.",
+    url:"https://buildersklub.com/meetups", src:"buildersklub.com"
+  },
+  {
+    date:"2026-09-01", dateLabel:"Sep (dates TBA)", month:"September 2026",
+    title:"AI Agents Berlin — H2 monthly meetup",
+    venue:"Berlin",
+    type:"meetup", eco:false, confirmed:false,
+    desc:"Monthly IRL meetups plus online sessions across two tracks (Personalized AI, DeFAI), building toward the Agentic Economy Forum.",
+    warn:"H2 2026 season announced; individual meetup dates are published on their Luma close to each event.",
+    url:"https://luma.com/aiagentsberlin", src:"luma.com/aiagentsberlin"
+  },
+  {
+    date:"2026-10-11", dateLabel:"Oct 11–12", month:"October 2026",
+    title:"{Tech: Europe} AI Hackathon — Berlin Edition",
+    venue:"Berlin",
+    type:"hackathon", eco:false, confirmed:false,
+    desc:"Full-weekend hackathon with sponsor credits from OpenAI, ElevenLabs, Weaviate, Runpod, Dust and others. ~90 participants, finalist pitches Sunday.",
+    warn:"Organizer announced an Oct 11–12 edition — confirm the date and registration on their Luma before planning.",
+    url:"https://luma.com/berlin-hackathon", src:"luma.com/berlin-hackathon"
+  },
+  {
+    date:"2026-10-12", dateLabel:"Oct 12–14", month:"October 2026",
+    title:"AI, Machine Learning & Data Science Conference",
+    venue:"Berlin",
+    type:"conference", eco:false, confirmed:true,
+    desc:"Three-day research-and-practice conference — ~30 sessions on robotics, MLOps, trustworthy AI, HPC, and multimodal understanding.",
+    url:"https://www.createwith.com/cities/berlin", src:"createwith.com"
+  },
+  {
+    date:"2026-10-15", dateLabel:"Oct 15", month:"October 2026",
+    title:"The Berlin AI Conference 2026",
+    venue:"SPACE SHACK Coworking",
+    type:"conference", eco:false, confirmed:true,
+    desc:"Evening conference gathering 150 Berlin business, product, and tech leaders — panel plus networking; follows sold-out 2024/2025 editions.",
+    url:"https://www.eventbrite.ie/e/the-berlin-ai-conference-2026-tickets-1983880925252", src:"eventbrite.ie"
+  },
+  {
+    date:"2026-10-20", dateLabel:"Oct 20–22", month:"October 2026",
+    title:"NVIDIA GTC Berlin",
+    venue:"Tempodrom (keynote) + STATION-Berlin (sessions)",
+    type:"conference", eco:false, confirmed:true,
+    desc:"NVIDIA's European GTC — Jensen Huang keynote Oct 21, then sessions and hands-on labs across the full AI stack: infra, open models, agentic and physical AI.",
+    url:"https://www.nvidia.com/en-eu/gtc/", src:"nvidia.com"
+  },
+  {
+    date:"2026-11-16", dateLabel:"Nov 16–20", month:"November 2026",
+    title:"MLcon Berlin 2026",
+    venue:"Maritim ProArte Hotel (expo Nov 18–19)",
+    type:"conference", eco:false, confirmed:true,
+    desc:"Week-long generative-AI and ML engineering conference — workshops, keynotes, and an expo; also attendable online.",
+    url:"https://mlconference.ai/berlin/", src:"mlconference.ai"
+  },
+  {
+    date:"2026-11-01", dateLabel:"H2 2026 (TBA)", month:"November 2026",
+    title:"Agentic Economy Forum",
+    venue:"Berlin",
+    type:"conference", eco:false, confirmed:false,
+    desc:"AI Agents Berlin's standalone forum anchoring their H2 season — agentic AI meets web3 across Personalized AI and DeFAI tracks. Their AI Agents Summit drew 400+ in person.",
+    warn:"Announced for H2 2026, exact date and venue not yet published — check their site.",
+    url:"https://aiagentsberlin.xyz/", src:"aiagentsberlin.xyz"
+  },
+  {
+    date:"2026-11-05", dateLabel:"Autumn (TBA)", month:"November 2026",
+    title:"Berlin Robotics × AI Hackathon",
+    venue:"Berlin",
+    type:"hackathon", eco:false, confirmed:false,
+    desc:"Weekend hackathon at the intersection of robotics and agentic coding — application-gated (Luma RSVP alone doesn't secure a spot).",
+    warn:"First edition announced; date not locked at research time — verify on Luma.",
+    url:"https://luma.com/1857f2wa", src:"luma.com"
+  },
+  {
+    date:"2026-09-20", dateLabel:"Autumn (TBA)", month:"September 2026",
+    title:"Berlin Analytics & AI Hackathon",
+    venue:"Berlin",
+    type:"hackathon", eco:true, confirmed:false,
+    desc:"Modern-data-stack hackathon organized by Snowflake, Lightdash, Collate, and JustWatch — capped at 50 participants.",
+    warn:"Announced on Luma without a locked date at research time — verify before planning.",
+    url:"https://luma.com/vqisz94p", src:"luma.com"
+  },
+  {
+    date:"2026-08-20", dateLabel:"Recurring (TBA)", month:"August 2026",
+    title:"Vector Space Meetup (Qdrant)",
+    venue:"Merantix AI Campus, Max-Urich-Str. 3",
+    type:"meetup", eco:true, confirmed:false,
+    desc:"Qdrant-hosted retrieval meetup — recent edition paneled n8n, Cognee, deepset, and LlamaIndex on retrieval in the age of agents.",
+    warn:"Recurring series; next edition inferred from cadence — watch luma.com/vsm-berlin for the locked date.",
+    url:"https://luma.com/vsm-berlin", src:"luma.com/vsm-berlin"
+  }
+];
+
+const SERIES = [
+  {name:"AI Tinkerers — Berlin", cad:"Monthly · application-based", loc:"Berlin",
+   desc:"Demo nights for engineers, founders, and researchers actively building with foundation models — agents, RAG, voice, evals, production infra. Sponsors have included OpenAI, Vercel, ElevenLabs, Redis, and Langdock.",
+   url:"https://berlin.aitinkerers.org/", src:"berlin.aitinkerers.org"},
+  {name:"Berlin AI Builders Meetup (GDG × Ojin AIxHaus)", cad:"Roughly monthly", loc:"Chausseestr. 36, Mitte",
+   desc:"GDG Berlin's hands-on builder meetup at the Ojin AIxHaus community space (powered by Journee) — production stories, community talks, occasional cloud credits.",
+   url:"https://gdg.community.dev/gdg-berlin/", src:"gdg.community.dev"},
+  {name:"AI Agent Builders Berlin (Dataiku)", cad:"Periodic", loc:"Berlin",
+   desc:"Global meetup series on building AI agents for enterprise needs — practical design, deployment, and trust patterns for mixed dev/data/business audiences.",
+   url:"https://www.meetup.com/ai-agent-builders-berlin-by-dataiku/", src:"meetup.com"},
+  {name:"Berlin AI Developers Group (AICamp)", cad:"Monthly talks + weekly virtual", loc:"Berlin + online",
+   desc:"AICamp's Berlin chapter — GenAI/LLM/agentic-AI talks, workshops, and code labs, plus a weekly virtual AI DevTalks series with Google Cloud.",
+   url:"https://www.meetup.com/berlin-ai-tech-talk/", src:"meetup.com"},
+  {name:"Merantix AI Campus events", cad:"300+ events/year", loc:"Max-Urich-Str. 3, Wedding",
+   desc:"Europe's self-styled hub for AI — meetups, hackathons, reading groups, and panels across research, industry, venture, and policy. The default venue to borrow a room (and an audience) in Berlin.",
+   url:"https://www.merantix-aicampus.com/events", src:"merantix-aicampus.com"},
+  {name:"AI Agents Berlin", cad:"Monthly IRL + online sessions", loc:"Berlin",
+   desc:"1,500+ member community at the agentic-AI × web3 intersection — monthly meetups and workshops building toward the Agentic Economy Forum.",
+   url:"https://luma.com/aiagentsberlin", src:"luma.com"},
+  {name:"{Tech: Europe} hackathons", cad:"Periodic weekend editions", loc:"Berlin (+ other EU cities)",
+   desc:"Full-weekend AI hackathons with heavyweight tool sponsors (OpenAI, ElevenLabs, Weaviate, Dust, Runpod) — the highest-leverage sponsor-table slot in the city.",
+   url:"https://luma.com/tech-europe", src:"luma.com/tech-europe"},
+  {name:"buildersklub", cad:"Monthly", loc:"Berlin",
+   desc:"Meetups for operators and builders applying AI and automation to real business workflows — a GTM-flavored complement to the engineering-heavy series.",
+   url:"https://buildersklub.com/meetups", src:"buildersklub.com"},
+  {name:"ai.berlin event directory", cad:"Continuously updated", loc:"Citywide",
+   desc:"The official Berlin AI ecosystem calendar — a good monthly sweep to catch one-off events this page hasn't tracked yet.",
+   url:"https://ai.berlin/events", src:"ai.berlin"}
+];
+
+const VENDORS = [
+  {name:"Qdrant", cat:"Vector database — HQ in Berlin (Chausseestraße 86)", status:"Active — recurring hosted meetup",
+   body:"Berlin's flagship vector-DB company (Rust-based, Series B). Hosts the Vector Space Meetup at Merantix AI Campus and runs Vector Space Day; recent panels included n8n, Cognee, deepset, and LlamaIndex. The single most important ecosystem account to track in this city.",
+   url:"https://qdrant.tech/", src:"qdrant.tech"},
+  {name:"deepset (Haystack)", cat:"Orchestration framework — Berlin", status:"Active — co-hosted meetups",
+   body:"Berlin-founded maker of Haystack. Has co-hosted Berlin GenAI meetups with Neo4j, Qdrant, and mixedbread — a natural partner (or competitor) for any retrieval-adjacent DevRel program.",
+   url:"https://haystack.deepset.ai/", src:"haystack.deepset.ai"},
+  {name:"n8n", cat:"Workflow automation / agents — Berlin", status:"Active — meetup circuit",
+   body:"Berlin-based workflow-automation platform pushing hard into agentic use cases; appears on local retrieval and agent panels. Large builder community that overlaps heavily with the agent-builder audience.",
+   url:"https://n8n.io/", src:"n8n.io"},
+  {name:"mixedbread", cat:"Embeddings / retrieval models — Berlin", status:"Active — speaker circuit",
+   body:"Berlin embedding-model startup; speakers appear at local GenAI and retrieval meetups. Worth tracking for co-marketing on retrieval-quality content.",
+   url:"https://www.mixedbread.com/", src:"mixedbread.com"},
+  {name:"Cognee", cat:"Agent memory / knowledge graphs", status:"Active — panel appearances",
+   body:"Memory-layer startup appearing on Berlin retrieval panels (Vector Space Meetup). Small but squarely in the agent-memory conversation.",
+   url:"https://www.cognee.ai/", src:"cognee.ai"},
+  {name:"Langdock", cat:"Enterprise AI platform — Berlin", status:"Active — meetup sponsor",
+   body:"Berlin startup and repeat sponsor of AI Tinkerers Berlin — a bellwether for which local sponsors find the builder audience worth paying for.",
+   url:"https://www.langdock.com/", src:"langdock.com"},
+  {name:"Neo4j", cat:"Graph database (GraphRAG)", status:"Active — co-hosted meetups",
+   body:"No Berlin HQ, but a steady presence at Berlin GenAI meetups (GraphRAG talks with the Haystack community). Track for GraphRAG-themed events.",
+   url:"https://neo4j.com/events/", src:"neo4j.com"},
+  {name:"Weaviate", cat:"Vector database — Amsterdam", status:"Active — hackathon sponsor",
+   body:"Not Berlin-based, but a recurring tool sponsor at Berlin {Tech: Europe} hackathons — competing directly for the same builder mindshare on the ground.",
+   url:"https://weaviate.io/", src:"weaviate.io"},
+  {name:"ElevenLabs", cat:"Voice AI", status:"Active — hackathons + meetups",
+   body:"Repeat sponsor across AI Tinkerers Berlin and {Tech: Europe} hackathons, including a worldwide hackathon edition — the model for high-frequency hackathon presence in this city.",
+   url:"https://elevenlabs.io/", src:"elevenlabs.io"},
+  {name:"Aleph Alpha", cat:"Foundation models — Heidelberg", status:"Watchlist",
+   body:"Germany's sovereign-AI model lab; researchers show up at Berlin builder events but no recurring Berlin event program tracked. Keep on the watchlist.",
+   url:"https://aleph-alpha.com/", src:"aleph-alpha.com"},
+  {name:"Snowflake", cat:"Data cloud / Cortex Agents", status:"Watchlist — hackathon organizer",
+   body:"Co-organizing the Berlin Analytics & AI Hackathon with Lightdash, Collate, and JustWatch — watch for a repeat cadence.",
+   url:"https://www.snowflake.com/", src:"snowflake.com"}
+];
+
+/* ================= RENDER ================= */
+const TYPE_LABEL = {conference:"Conference", meetup:"Meetup", hackathon:"Hackathon"};
+const $ = s => document.querySelector(s);
+
+function esc(t){const d=document.createElement("div");d.textContent=t;return d.innerHTML}
+
+/* hero stats + next up */
+function renderHero(){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const upcoming = EVENTS.filter(e=>new Date(e.date)>=today).sort((a,b)=>a.date.localeCompare(b.date));
+  const next = upcoming.find(e=>e.confirmed) || upcoming[0];
+  if(next){
+    $("#nextUpName").textContent = next.title;
+    $("#nextUpDate").textContent = next.dateLabel + " · " + next.venue.split(",")[0];
+  }
+  $("#statConf").textContent = EVENTS.filter(e=>e.type==="conference").length;
+  $("#statMeet").textContent = EVENTS.filter(e=>e.type==="meetup").length + SERIES.length;
+  $("#statHack").textContent = EVENTS.filter(e=>e.type==="hackathon").length;
+}
+
+/* this week transit line */
+function renderWeek(){
+  const today=new Date(); today.setHours(0,0,0,0);
+  const in7=new Date(today); in7.setDate(in7.getDate()+7);
+  const wk = EVENTS.filter(e=>{const d=new Date(e.date);return d>=today&&d<=in7;})
+                   .sort((a,b)=>a.date.localeCompare(b.date));
+  const root=$("#weekLine");
+  if(!wk.length){
+    root.classList.remove("line-list");
+    root.innerHTML = `<div class="empty-week">No dated events in the next 7 days — use the slot for an online anchor (office hours, deep-dive), or check the always-on series below for a freshly announced date.</div>`;
+    return;
+  }
+  root.classList.add("line-list");
+  root.innerHTML = wk.map(e=>`
+    <div class="stop">
+      <span class="date">${esc(e.dateLabel)}</span>
+      <a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a>
+      <span class="tag">${TYPE_LABEL[e.type].toLowerCase()}${e.eco?" · ecosystem":""}</span>
+    </div>`).join("");
+}
+
+/* calendar */
+const state = {type:"all", ecoOnly:false, unconfirmed:true};
+
+function renderCalendar(){
+  const monthsOrder=[...new Set(EVENTS.slice().sort((a,b)=>a.date.localeCompare(b.date)).map(e=>e.month))];
+  const visible = EVENTS.filter(e=>{
+    if(state.type!=="all" && e.type!==state.type) return false;
+    if(state.ecoOnly && !e.eco) return false;
+    if(!state.unconfirmed && !e.confirmed) return false;
+    return true;
+  });
+  const root=$("#calendarRoot");
+  root.innerHTML = monthsOrder.map(m=>{
+    const evs=visible.filter(e=>e.month===m).sort((a,b)=>a.date.localeCompare(b.date));
+    if(!evs.length) return "";
+    return `<div class="month"><span class="month-h">${esc(m)}</span><div class="cards">`+
+      evs.map(e=>`
+      <article class="card ${e.type}">
+        <div class="when">${esc(e.dateLabel)}</div>
+        <div class="badges">
+          <span class="badge type-${e.type}">${TYPE_LABEL[e.type]}</span>
+          <span class="badge ${e.confirmed?"confirmed":"unconfirmed"}">${e.confirmed?"Confirmed":"Unconfirmed"}</span>
+          ${e.eco?`<span class="badge eco">Ecosystem</span>`:""}
+        </div>
+        <h3>${esc(e.title)}</h3>
+        <div class="venue">${esc(e.venue)}</div>
+        <div class="desc">${esc(e.desc)}</div>
+        ${e.warn?`<div class="warn">⚠ ${esc(e.warn)}</div>`:""}
+        <div class="src"><a href="${e.url}" target="_blank" rel="noopener">${esc(e.src)} ↗</a></div>
+      </article>`).join("")+`</div></div>`;
+  }).join("");
+  $("#countNote").textContent = `Showing ${visible.length} of ${EVENTS.length} dated events.`;
+}
+
+/* SEO: JSON-LD structured data so search engines can read the events.
+   Regenerated whenever the event data (re)renders. */
+function renderStructuredData(){
+  const old=document.getElementById("jsonld-events");
+  if(old) old.remove();
+  const today=new Date().toISOString().slice(0,10);
+  const events=EVENTS.filter(e=>e.confirmed && e.date>=today).slice(0,25).map(e=>({
+    "@type":"Event",
+    "name":e.title,
+    "startDate":e.date,
+    "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus":"https://schema.org/EventScheduled",
+    "location":{"@type":"Place","name":e.venue,"address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"}},
+    "description":e.desc,
+    "url":e.url
+  }));
+  const data={
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"WebSite","name":"Berlin AI Builders — DevRel Calendar",
+       "description":"A living calendar of AI conferences, meetups, and hackathons in Berlin, auto-updated from organizer feeds.",
+       "url":location.origin+location.pathname},
+      {"@type":"ItemList","itemListElement":events.map((ev,i)=>({"@type":"ListItem","position":i+1,"item":ev}))}
+    ]
+  };
+  const s=document.createElement("script");
+  s.type="application/ld+json"; s.id="jsonld-events";
+  s.textContent=JSON.stringify(data);
+  document.head.appendChild(s);
+}
+
+function renderAll(){ renderHero(); renderWeek(); renderCalendar(); renderStructuredData(); }
+renderAll();
+
+/* Live data: events.json is rebuilt by the GitHub Action every 2 days.
+   If the fetch fails (offline, file:// preview), the embedded data above stays. */
+fetch("events.json", {cache:"no-cache"})
+  .then(r => r.ok ? r.json() : null)
+  .then(j => {
+    if(j && Array.isArray(j.events) && j.events.length){
+      EVENTS = j.events;
+      renderAll();
+      if(j.generatedAt){
+        const d = new Date(j.generatedAt);
+        const stamp = d.toISOString().slice(0,10);
+        document.querySelectorAll(".data-stamp").forEach(el=>el.textContent = stamp);
+      }
+    }
+  })
+  .catch(()=>{});
+
+document.querySelectorAll(".chip").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".chip").forEach(b=>b.classList.remove("on"));
+    btn.classList.add("on");
+    state.type=btn.dataset.filter;
+    renderCalendar();
+  });
+});
+$("#ecoOnly").addEventListener("change",e=>{state.ecoOnly=e.target.checked;renderCalendar()});
+$("#showUnconfirmed").addEventListener("change",e=>{state.unconfirmed=e.target.checked;renderCalendar()});
+
+/* always-on series */
+$("#seriesGrid").innerHTML = SERIES.map(s=>`
+  <div class="series">
+    <div class="top"><span class="badge type-meetup">Series</span><span class="cad">${esc(s.cad)}</span></div>
+    <h3>${esc(s.name)}</h3>
+    <p>${esc(s.desc)}</p>
+    <a href="${s.url}" target="_blank" rel="noopener">${esc(s.src)} ↗</a>
+  </div>`).join("");
+
+/* ecosystem */
+$("#ecoList").innerHTML = VENDORS.map(v=>`
+  <details class="vendor">
+    <summary>
+      <span class="arr">▸</span>
+      <span class="name">${esc(v.name)}</span>
+      <span class="cat">${esc(v.cat)}</span>
+      <span class="st">${esc(v.status)}</span>
+    </summary>
+    <div class="body"><p>${esc(v.body)} <a href="${v.url}" target="_blank" rel="noopener">${esc(v.src)} ↗</a></p></div>
+  </details>`).join("");
+
+/* nav: pure buttons — no hrefs, so nothing can navigate or redirect,
+   in the deployed site or any sandboxed preview */
+document.querySelectorAll("[data-target]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const id=btn.dataset.target;
+    const target = id==="top" ? document.body : document.getElementById(id);
+    if(!target) return;
+    const reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if(id==="top"){ window.scrollTo({top:0,behavior:reduce?"auto":"smooth"}); }
+    else{ target.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"}); }
+  });
+});
+const spy=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(!en.isIntersecting) return;
+    document.querySelectorAll(".nav-links button[data-target]").forEach(b=>
+      b.classList.toggle("active", b.dataset.target===en.target.id));
+  });
+},{rootMargin:"-25% 0px -65% 0px"});
+["calendar","ecosystem","playbook"].forEach(id=>{
+  const el=document.getElementById(id);
+  if(el) spy.observe(el);
+});
+/* deep links still work on the real site: /#ecosystem scrolls on load */
+if(location.hash){
+  const el=document.getElementById(location.hash.slice(1));
+  if(el) setTimeout(()=>el.scrollIntoView({block:"start"}),50);
+}
+
+/* theme toggle */
+const toggle=$("#themeToggle");
+function setTheme(dark){
+  document.documentElement.classList.toggle("dark",dark);
+  toggle.textContent = dark ? "Light" : "Dark";
+  try{localStorage.setItem("berlin-devrel-theme", dark?"dark":"light")}catch(e){}
+}
+let saved=null; try{saved=localStorage.getItem("berlin-devrel-theme")}catch(e){}
+if(saved){ setTheme(saved==="dark"); }
+else if(window.matchMedia("(prefers-color-scheme: dark)").matches){ setTheme(true); }
+toggle.addEventListener("click",()=>setTheme(!document.documentElement.classList.contains("dark")));
+</script>
+</body>
+</html>
