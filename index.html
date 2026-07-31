@@ -4,19 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="QaaJ9VvHVOaj-eXt3Q8vkZbkmrLslPTu7SxYlZjG5to" />
-<title>AI Events in Berlin 2026 — Conferences, Meetups & Hackathons Calendar</title>
-<meta name="description" content="A living calendar of AI events in Berlin: GTC Berlin, MLcon, AI Tinkerers, hackathons and more. Auto-updated every 2 days from organizer feeds — with an ecosystem tracker and DevRel playbook.">
+<title>Berlin AI Events, Meetups & Hackathons | Berlin AI Events</title>
+<meta name="description" content="Track upcoming AI conferences, recurring meetups, and hackathons for founders and agent builders in Berlin. Curated ecosystem updates.">
 <!-- Replace YOUR-DOMAIN with your real Vercel domain after deploying -->
 <link rel="canonical" href="https://YOUR-DOMAIN.vercel.app/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AI Events in Berlin 2026 — Conferences, Meetups & Hackathons">
-<meta property="og:description" content="Every Berlin room where AI builders gather. Self-updating calendar of conferences, meetups & hackathons — refreshed every 2 days from organizer feeds.">
+<meta property="og:title" content="Berlin AI Events, Meetups & Hackathons | Berlin AI Events">
+<meta property="og:description" content="Track upcoming AI conferences, recurring meetups, and hackathons for founders and agent builders in Berlin. Curated ecosystem updates.">
 <meta property="og:url" content="https://YOUR-DOMAIN.vercel.app/">
-<meta property="og:site_name" content="Berlin AI Builders — DevRel Calendar">
+<meta property="og:site_name" content="Berlin AI Events">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI Events in Berlin 2026 — Conferences, Meetups & Hackathons">
-<meta name="twitter:description" content="Self-updating calendar of Berlin AI events, refreshed every 2 days from organizer feeds.">
+<meta name="twitter:title" content="Berlin AI Events, Meetups & Hackathons | Berlin AI Events">
+<meta name="twitter:description" content="Track upcoming AI conferences, recurring meetups, and hackathons for founders and agent builders in Berlin. Curated ecosystem updates.">
 <meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -280,7 +280,7 @@ footer p{font-size:13px;color:var(--muted);max-width:74ch}
 
 <header>
   <div class="wrap nav">
-    <button class="brand" type="button" data-target="top"><span class="dot">B</span>Berlin AI Builders&nbsp;<span class="sub">DevRel Calendar</span></button>
+    <button class="brand" type="button" data-target="top"><span class="dot">B</span>Berlin AI Events&nbsp;<span class="sub">DevRel Calendar</span></button>
     <nav class="nav-links" aria-label="Sections">
       <button type="button" data-target="calendar">Calendar</button>
       <button type="button" data-target="ecosystem">Ecosystem</button>
@@ -738,8 +738,8 @@ function renderStructuredData(){
   const data={
     "@context":"https://schema.org",
     "@graph":[
-      {"@type":"WebSite","name":"Berlin AI Builders — DevRel Calendar",
-       "description":"A living calendar of AI conferences, meetups, and hackathons in Berlin, auto-updated from organizer feeds.",
+      {"@type":"WebSite","name":"Berlin AI Events",
+       "description":"Track upcoming AI conferences, recurring meetups, and hackathons for founders and agent builders in Berlin. Curated ecosystem updates.",
        "url":location.origin+location.pathname},
       {"@type":"ItemList","itemListElement":events.map((ev,i)=>({"@type":"ListItem","position":i+1,"item":ev}))}
     ]
