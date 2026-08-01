@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-31T13:22:47.118Z",
-  "count": 26,
+  "generatedAt": "2026-08-01T07:38:12.069Z",
+  "count": 25,
   "events": [
-    {
-      "date": "2026-07-31",
-      "dateLabel": "Jul 31",
-      "title": "build fridays berlin - work on your startup alongside others (bring laptop)",
-      "venue": "Miro DACH GmbH, Schönhauser Allee 9, 10119 Berlin, Germany",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/2jdk2zbf  Address: Miro DACH GmbH Berlin, Germany  Hosted by AI BEAVERS & 3 others",
-      "url": "https://luma.com/2jdk2zbf",
-      "src": "luma.com",
-      "auto": true,
-      "month": "July 2026"
-    },
     {
       "date": "2026-08-04",
       "dateLabel": "Aug 4",
