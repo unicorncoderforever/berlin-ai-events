@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-03T08:42:16.483Z",
-  "count": 26,
+  "generatedAt": "2026-08-05T07:49:20.200Z",
+  "count": 25,
   "events": [
-    {
-      "date": "2026-08-04",
-      "dateLabel": "Aug 4",
-      "title": "Aug 4 - Visual AI in Manufacturing",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics at the intersection of manufacturing, AI, ML, and computer vision.  **Date, Time and Locatio",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315682815/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-05",
       "dateLabel": "Aug 5",
