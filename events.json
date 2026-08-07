@@ -1,49 +1,7 @@
 {
-  "generatedAt": "2026-08-05T07:49:20.200Z",
-  "count": 25,
+  "generatedAt": "2026-08-07T06:18:58.105Z",
+  "count": 22,
   "events": [
-    {
-      "date": "2026-08-05",
-      "dateLabel": "Aug 5",
-      "title": "Google AI Deep Dive (Ep 2)",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026080510) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/315837080/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
-    {
-      "date": "2026-08-06",
-      "dateLabel": "Aug 6",
-      "title": "Aug 6 - Audio and AI Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Aug 06, 2026 9:00 AM - 11:",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315389138/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
-    {
-      "date": "2026-08-06",
-      "dateLabel": "Aug 6",
-      "title": "Aug 6 - Audio and AI Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us on Aug 6 for a special edition of the AI, ML, and Computer Vision Meetup focused on audio use cases!  **Date, Time and Location**  Aug 06, 2026 9:00 AM - 11:0",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315701001/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-07",
       "dateLabel": "Aug 7–14",
@@ -52,7 +10,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/hry7utmj  Address: CODE University of Applied Sciences Berlin, Berlin Germany  Hosted by Felix Holtkamp & 3 others",
+      "desc": "Get up-to-date information at: https://luma.com/hry7utmj  Address: CODE University of Applied Sciences Berlin, Berlin Germany  Hosted by Felix Holtkamp & 4 others",
       "url": "https://luma.com/hry7utmj",
       "src": "luma.com",
       "auto": true,
@@ -279,6 +237,20 @@
       "month": "October 2026"
     },
     {
+      "date": "2026-10-16",
+      "dateLabel": "Oct 16",
+      "title": "Agentic Hackathon: From Research to Commerce",
+      "venue": "Berlin, Germany",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
+      "url": "https://luma.com/research-to-commerce",
+      "src": "luma.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
       "date": "2026-10-20",
       "dateLabel": "Oct 20–22",
       "title": "NVIDIA GTC Berlin",
@@ -289,20 +261,6 @@
       "desc": "NVIDIA's European GTC — Jensen Huang keynote Oct 21, then sessions and hands-on labs across the full AI stack: infra, open models, agentic and physical AI.",
       "url": "https://www.nvidia.com/en-eu/gtc/",
       "src": "nvidia.com",
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-24",
-      "dateLabel": "Oct 24",
-      "title": "[POSTPONED] Agentic Hackathon: From Research to Commerce",
-      "venue": "42 Berlin, Harzer Str. 42, 12059 Berlin, Germany",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: 42 Berlin Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
-      "url": "https://luma.com/research-to-commerce",
-      "src": "luma.com",
-      "auto": true,
       "month": "October 2026"
     },
     {
