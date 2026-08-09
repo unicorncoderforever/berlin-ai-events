@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T15:03:00.175Z",
-  "count": 21,
+  "generatedAt": "2026-08-09T05:57:41.862Z",
+  "count": 24,
   "events": [
     {
       "date": "2026-08-11",
@@ -54,6 +54,34 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup In this session, you’ll learn how to build production-ready AI agents that can reason over your data, automate complex tasks, and integrate seamlessly into your exist",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315684162/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
+      "date": "2026-08-14",
+      "dateLabel": "Aug 14",
+      "title": "build fridays berlin - work on your startup alongside others (bring laptop)",
+      "venue": "Futura House | Tech, Longevity and Balance, Paul-Lincke-Ufer 39-40, 10999 Berlin, Germany",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/k9jou28r  Address: Futura House | Tech, Longevity and Balance Berlin, Germany  Hosted by AI BEAVERS & 3 others",
+      "url": "https://luma.com/k9jou28r",
+      "src": "luma.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
+      "date": "2026-08-14",
+      "dateLabel": "Aug 14",
+      "title": "10k€ SummerUP 2026 Pitchday - After One Week of Building and Selling.",
+      "venue": "The Delta Campus, Donaustraße 44, 12043 Berlin, Germany",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/h9b4btym  Address: The Delta Campus groundfloor, at \"The Delta\" stage Berlin, Berlin Germany  Hosted by Tjark Lindner, Felix Holtkamp & Alec Fritsch",
+      "url": "https://luma.com/h9b4btym",
+      "src": "luma.com",
       "auto": true,
       "month": "August 2026"
     },
@@ -181,6 +209,20 @@
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
+    },
+    {
+      "date": "2026-10-08",
+      "dateLabel": "Oct 8",
+      "title": "Oct 8 - MCP, Agents and Skills Meetup Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on MCP, agents and skills.  **Date, Time and Location**  Oct 08, 2026 9:00 AM - 11:00 AM PST Online. **[Register fo",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316022259/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
     },
     {
       "date": "2026-10-11",
