@@ -17,6 +17,8 @@
 <meta name="twitter:title" content="Berlin's AI Event Map — Conferences, Meetups & Hackathons">
 <meta name="twitter:description" content="Every AI conference, meetup, and hackathon worth showing up for in Berlin — mapped like a transit line, updated every 2 days.">
 <meta name="robots" content="index, follow">
+<!-- GoatCounter: cookieless, GDPR-compliant analytics — no consent banner needed -->
+<script data-goatcounter="https://berlin-ai-events.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -310,8 +312,8 @@ footer p{font-size:13px;color:var(--muted);max-width:74ch}
         <summary>📅 Subscribe</summary>
         <div class="subscribe-menu">
           <span class="hint">Adds a live-updating calendar — doesn't touch your existing events.</span>
-          <a id="gcalSubscribe" href="#" target="_blank" rel="noopener">Google Calendar</a>
-          <a id="icsSubscribe" href="events.ics">Apple Calendar / Outlook</a>
+          <a id="gcalSubscribe" href="#" target="_blank" rel="noopener" data-goatcounter-click="subscribe-google-calendar" data-goatcounter-title="Subscribe via Google Calendar">Google Calendar</a>
+          <a id="icsSubscribe" href="events.ics" data-goatcounter-click="subscribe-apple-outlook" data-goatcounter-title="Subscribe via Apple/Outlook">Apple Calendar / Outlook</a>
         </div>
       </details>
       <button id="themeToggle" type="button">Dark</button>
@@ -772,10 +774,14 @@ function renderCalendar(){
         <div class="venue">${esc(e.venue)}</div>
         <div class="desc">${esc(e.desc)}</div>
         ${e.warn?`<div class="warn">⚠ ${esc(e.warn)}</div>`:""}
-        <div class="src"><a href="${e.url}" target="_blank" rel="noopener">${esc(e.src)} ↗</a><a class="gcal" href="${gcalUrl(e)}" target="_blank" rel="noopener">+ Google Calendar</a></div>
+        <div class="src"><a href="${e.url}" target="_blank" rel="noopener">${esc(e.src)} ↗</a><a class="gcal" href="${gcalUrl(e)}" target="_blank" rel="noopener" data-goatcounter-click="event-add-to-google-calendar" data-goatcounter-title="${esc(e.title)}">+ Google Calendar</a></div>
       </article>`).join("")+`</div></div>`;
   }).join("");
   $("#countNote").textContent = `Showing ${visible.length} of ${EVENTS.length} dated events.`;
+  /* New .gcal links just got created — count.js only auto-binds elements
+     present at page load, so re-run its binder to pick up the new ones.
+     Safe to call repeatedly: it skips elements already marked bound. */
+  if(window.goatcounter && window.goatcounter.bind_events) window.goatcounter.bind_events();
 }
 
 /* SEO: JSON-LD structured data so search engines can read the events.
