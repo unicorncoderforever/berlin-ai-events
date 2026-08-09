@@ -17,6 +17,8 @@ import { dirname, join } from "node:path";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "events.json");
+const ICS_OUT = join(ROOT, "events.ics");
+const SITE_URL = "https://berlin-ai-events.vercel.app/";
 
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const MONTHS_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -125,6 +127,74 @@ function normalizeFeedEvent(ev, source) {
   };
 }
 
+/* ---------------- ICS feed (calendar subscribe) ---------------- */
+
+function addDaysISO(iso, n) {
+  const d = new Date(iso + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+function icsEscape(s) {
+  return String(s || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/;/g, "\\;")
+    .replace(/,/g, "\\,")
+    .replace(/\r?\n/g, "\\n");
+}
+
+/** RFC 5545 line folding at 75 octets. */
+function foldLine(line) {
+  if (line.length <= 75) return line;
+  let out = "";
+  let rest = line;
+  let first = true;
+  while (rest.length > 0) {
+    const take = first ? 75 : 74;
+    out += (first ? "" : "\r\n ") + rest.slice(0, take);
+    rest = rest.slice(take);
+    first = false;
+  }
+  return out;
+}
+
+function icsUid(e) {
+  const slug = `${e.date}-${e.title}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  return `${slug}@berlin-ai-events`;
+}
+
+/** All-day VEVENTs — the site only tracks calendar dates, not exact times. */
+function buildICS(events, generatedAtISO) {
+  const dtstamp = generatedAtISO.replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Berlin AI Events//berlin-ai-events//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "X-WR-CALNAME:Berlin AI Events",
+    "X-WR-CALDESC:Conferences, meetups, and hackathons for AI builders in Berlin.",
+    "X-WR-TIMEZONE:Europe/Berlin",
+  ];
+  for (const e of events) {
+    lines.push("BEGIN:VEVENT");
+    lines.push(`UID:${icsUid(e)}`);
+    lines.push(`DTSTAMP:${dtstamp}`);
+    lines.push(`DTSTART;VALUE=DATE:${e.date.replace(/-/g, "")}`);
+    lines.push(`DTEND;VALUE=DATE:${addDaysISO(e.date, 1).replace(/-/g, "")}`);
+    lines.push(foldLine(`SUMMARY:${icsEscape(e.title)}`));
+    const backLink = `${SITE_URL}?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe`;
+    const details = [e.desc, e.url, `Full calendar: ${backLink}`].filter(Boolean).join(" ");
+    lines.push(foldLine(`DESCRIPTION:${icsEscape(details)}`));
+    lines.push(foldLine(`LOCATION:${icsEscape(e.venue)}`));
+    if (e.url) lines.push(foldLine(`URL:${e.url}`));
+    lines.push(`CATEGORIES:${e.type.toUpperCase()}`);
+    lines.push("END:VEVENT");
+  }
+  lines.push("END:VCALENDAR");
+  return lines.join("\r\n") + "\r\n";
+}
+
 /* ---------------- validation / merge ---------------- */
 
 function isValid(e, today, horizon) {
@@ -199,10 +269,12 @@ async function main() {
     events: merged,
   };
   writeFileSync(OUT, JSON.stringify(out, null, 2) + "\n");
+  writeFileSync(ICS_OUT, buildICS(merged, out.generatedAt));
   console.log(`\nwrote events.json — ${merged.length} events (${feedEvents.length} from feeds, ${manual.length} curated)`);
+  console.log(`wrote events.ics`);
 }
 
-export { parseICS, normalizeFeedEvent, classify, dateLabel, parseICSDate, isValid, dedupeKey };
+export { parseICS, normalizeFeedEvent, classify, dateLabel, parseICSDate, isValid, dedupeKey, buildICS, icsUid, addDaysISO };
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   main().catch((err) => { console.error(err); process.exit(1); });

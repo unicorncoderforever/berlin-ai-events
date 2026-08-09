@@ -19,14 +19,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch feeds and rebuild events.json
+      - name: Fetch feeds and rebuild events.json + events.ics
         run: node scripts/update-events.mjs
 
       - name: Commit if changed
         run: |
           git config user.name "events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events.json
+          git add events.json events.ics
           if git diff --cached --quiet; then
             echo "No changes."
           else

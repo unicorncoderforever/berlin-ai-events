@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace with your real domain after deploying
-Sitemap: https://YOUR-DOMAIN.vercel.app/sitemap.xml
+Sitemap: https://berlin-ai-events.vercel.app/sitemap.xml

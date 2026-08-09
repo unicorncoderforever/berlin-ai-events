@@ -6,12 +6,11 @@
 <meta name="google-site-verification" content="QaaJ9VvHVOaj-eXt3Q8vkZbkmrLslPTu7SxYlZjG5to" />
 <title>Berlin's AI Event Map — Conferences, Meetups & Hackathons | Berlin AI Events</title>
 <meta name="description" content="Every AI conference, meetup, and hackathon worth showing up for in Berlin — mapped like a transit line, updated every 2 days, and paired with the ecosystem players and a playbook for staying in the room.">
-<!-- Replace YOUR-DOMAIN with your real Vercel domain after deploying -->
-<link rel="canonical" href="https://YOUR-DOMAIN.vercel.app/">
+<link rel="canonical" href="https://berlin-ai-events.vercel.app/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Berlin's AI Event Map — Conferences, Meetups & Hackathons">
 <meta property="og:description" content="Every AI conference, meetup, and hackathon worth showing up for in Berlin — mapped like a transit line, updated every 2 days, and paired with the ecosystem players and a playbook for staying in the room.">
-<meta property="og:url" content="https://YOUR-DOMAIN.vercel.app/">
+<meta property="og:url" content="https://berlin-ai-events.vercel.app/">
 <meta property="og:site_name" content="Berlin AI Events">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -90,6 +89,13 @@ header{
   font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:7px;cursor:pointer;
 }
 #themeToggle:hover{border-color:var(--muted)}
+#subscribeBtn{
+  display:inline-flex;align-items:center;gap:6px;
+  border:1px solid var(--sign);background:var(--sign);color:var(--sign-ink);
+  font:inherit;font-size:13px;font-weight:700;padding:6px 13px;border-radius:7px;
+  text-decoration:none;cursor:pointer;
+}
+#subscribeBtn:hover{opacity:.9}
 
 /* ---------- hero ---------- */
 .hero{padding:56px 0 40px;border-bottom:1px solid var(--line)}
@@ -192,10 +198,12 @@ label.chk input{accent-color:var(--sign);width:15px;height:15px}
 .card .venue{grid-column:2;font-size:13.5px;color:var(--muted);font-weight:500}
 .card .desc{grid-column:2;font-size:14.5px;margin-top:4px}
 .card .warn{grid-column:2;font-size:13px;margin-top:6px;color:var(--unconf);font-weight:500}
-.card .src{grid-column:2;margin-top:8px}
+.card .src{grid-column:2;margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 14px}
 .card .src a{font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:600;text-decoration:none;color:var(--sign)}
 html.dark .card .src a{color:#7FB2E8}
 .card .src a:hover{text-decoration:underline}
+.card .src a.gcal{color:var(--muted)}
+html.dark .card .src a.gcal{color:var(--muted)}
 .count-note{margin-top:20px;font-size:13.5px;color:var(--muted)}
 
 /* ---------- always-on ---------- */
@@ -285,6 +293,7 @@ footer p{font-size:13px;color:var(--muted);max-width:74ch}
       <button type="button" data-target="calendar">Calendar</button>
       <button type="button" data-target="ecosystem">Ecosystem</button>
       <button type="button" data-target="playbook">Playbook</button>
+      <a id="subscribeBtn" href="events.ics" title="Subscribe in Apple Calendar, Outlook, or Google Calendar (Settings → Add calendar → From URL)">📅 Subscribe</a>
       <button id="themeToggle" type="button">Dark</button>
     </nav>
   </div>
@@ -650,10 +659,40 @@ const $ = s => document.querySelector(s);
 
 function esc(t){const d=document.createElement("div");d.textContent=t;return d.innerHTML}
 
+/* Local calendar-day string (YYYY-MM-DD), independent of timezone offset.
+   Event dates are plain YYYY-MM-DD strings, so string comparison against
+   this is safe and avoids the UTC-vs-local mismatch new Date(e.date) has:
+   new Date("2026-08-07") is parsed as UTC midnight, while new Date() with
+   setHours(0,0,0,0) is local midnight — for timezones west of UTC that
+   made today's own events fall out of "upcoming"/"this week". */
+function localISODate(d){
+  const off = d.getTimezoneOffset();
+  return new Date(d.getTime() - off*60000).toISOString().slice(0,10);
+}
+
+/* "Add to Google Calendar" link — all-day event on e.date (end is exclusive,
+   so start+1, computed via calendar-date arithmetic in UTC to avoid any
+   timezone shift). Multi-day dateLabel ranges aren't in the data model yet,
+   so this always books the start day only. */
+function gcalUrl(e){
+  const start = e.date.replace(/-/g,"");
+  const endDate = new Date(e.date+"T00:00:00Z"); endDate.setUTCDate(endDate.getUTCDate()+1);
+  const end = endDate.toISOString().slice(0,10).replace(/-/g,"");
+  const backLink = "https://berlin-ai-events.vercel.app/?utm_source=gcal&utm_medium=calendar&utm_campaign=add_event";
+  const params = new URLSearchParams({
+    action:"TEMPLATE",
+    text:e.title,
+    dates:`${start}/${end}`,
+    details:[e.desc,e.url,`Full calendar: ${backLink}`].filter(Boolean).join(" "),
+    location:e.venue
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
 /* hero stats + next up */
 function renderHero(){
-  const today = new Date(); today.setHours(0,0,0,0);
-  const upcoming = EVENTS.filter(e=>new Date(e.date)>=today).sort((a,b)=>a.date.localeCompare(b.date));
+  const today = localISODate(new Date());
+  const upcoming = EVENTS.filter(e=>e.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
   const next = upcoming.find(e=>e.confirmed) || upcoming[0];
   if(next){
     $("#nextUpName").textContent = next.title;
@@ -666,9 +705,9 @@ function renderHero(){
 
 /* this week transit line */
 function renderWeek(){
-  const today=new Date(); today.setHours(0,0,0,0);
-  const in7=new Date(today); in7.setDate(in7.getDate()+7);
-  const wk = EVENTS.filter(e=>{const d=new Date(e.date);return d>=today&&d<=in7;})
+  const today = localISODate(new Date());
+  const in7 = localISODate(new Date(Date.now() + 7*86400000));
+  const wk = EVENTS.filter(e=>e.date>=today && e.date<=in7)
                    .sort((a,b)=>a.date.localeCompare(b.date));
   const root=$("#weekLine");
   if(!wk.length){
@@ -713,7 +752,7 @@ function renderCalendar(){
         <div class="venue">${esc(e.venue)}</div>
         <div class="desc">${esc(e.desc)}</div>
         ${e.warn?`<div class="warn">⚠ ${esc(e.warn)}</div>`:""}
-        <div class="src"><a href="${e.url}" target="_blank" rel="noopener">${esc(e.src)} ↗</a></div>
+        <div class="src"><a href="${e.url}" target="_blank" rel="noopener">${esc(e.src)} ↗</a><a class="gcal" href="${gcalUrl(e)}" target="_blank" rel="noopener">+ Google Calendar</a></div>
       </article>`).join("")+`</div></div>`;
   }).join("");
   $("#countNote").textContent = `Showing ${visible.length} of ${EVENTS.length} dated events.`;
@@ -724,7 +763,7 @@ function renderCalendar(){
 function renderStructuredData(){
   const old=document.getElementById("jsonld-events");
   if(old) old.remove();
-  const today=new Date().toISOString().slice(0,10);
+  const today=localISODate(new Date());
   const events=EVENTS.filter(e=>e.confirmed && e.date>=today).slice(0,25).map(e=>({
     "@type":"Event",
     "name":e.title,
@@ -752,6 +791,17 @@ function renderStructuredData(){
 
 function renderAll(){ renderHero(); renderWeek(); renderCalendar(); renderStructuredData(); }
 renderAll();
+
+/* Calendar subscribe: webcal:// tells Apple Calendar/Outlook to open their
+   "add subscription" dialog directly; Google Calendar takes the same file
+   over https via Settings → Add calendar → From URL. Built at runtime since
+   it depends on wherever this page ends up deployed. */
+(function initSubscribeLink(){
+  const btn = $("#subscribeBtn");
+  if(!btn || location.protocol === "file:") return;
+  const icsUrl = new URL("events.ics", location.href).href;
+  btn.href = icsUrl.replace(/^https?:/, "webcal:");
+})();
 
 /* Live data: events.json is rebuilt by the GitHub Action every 2 days.
    If the fetch fails (offline, file:// preview), the embedded data above stays. */
