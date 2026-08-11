@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-09T11:52:55.393Z",
-  "count": 24,
+  "generatedAt": "2026-08-11T06:04:35.333Z",
+  "count": 26,
   "events": [
-    {
-      "date": "2026-08-11",
-      "dateLabel": "Aug 11",
-      "title": "Google Agents in Production for Enterprises (Virtual) - Ep 1",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026081110) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/315935863/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-11",
       "dateLabel": "Aug 11",
@@ -197,6 +183,34 @@
       "month": "September 2026"
     },
     {
+      "date": "2026-09-22",
+      "dateLabel": "Sep 22",
+      "title": "Google Agents in Production for Enterprises (Virtual) - Ep 1",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026081110) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/315935863/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-22",
+      "dateLabel": "Sep 22",
+      "title": "Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Learn about FiftyOne Agent, an AI assistant built directly into FiftyOne that turns plain-language requests into real dataset operations.  **Date, Time and Location**",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316064297/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
       "date": "2026-09-24",
       "dateLabel": "Sep 24",
       "title": "Sept 24 - AI, ML and Computer Vision Meetup",
@@ -206,6 +220,20 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup on September 24 to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Sep 24, 20",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315388195/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-30",
+      "dateLabel": "Sep 30",
+      "title": "Sept 30 - Building Composable Vision Workflows in FiftyOne",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin framework to build custom computer vision applications. You’ll learn to extend the F",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316064710/",
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
