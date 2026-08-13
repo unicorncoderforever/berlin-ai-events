@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-11T06:04:35.333Z",
-  "count": 26,
+  "generatedAt": "2026-08-13T06:44:37.338Z",
+  "count": 27,
   "events": [
-    {
-      "date": "2026-08-11",
-      "dateLabel": "Aug 11",
-      "title": "Aug 11 - Debugging Physical AI Models at Scale with Multimodal Data Workshop",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join Voxel51 for a live workshop on how multimodal data workflows in FiftyOne help teams inspect, search, and debug complex Physical AI datasets and explain black-box",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315683213/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-13",
       "dateLabel": "Aug 13",
@@ -44,6 +30,20 @@
       "month": "August 2026"
     },
     {
+      "date": "2026-08-13",
+      "dateLabel": "Aug 13",
+      "title": "BRAIN Robotics MeetUp Berlin",
+      "venue": "The Delta Campus, Donaustraße 44, 12043 Berlin, Germany",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/q2h5rlym  Address: The Delta Campus Berlin, Germany  Hosted by Samuel Harck, Emil Hopf & Janne",
+      "url": "https://luma.com/q2h5rlym",
+      "src": "luma.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
       "date": "2026-08-14",
       "dateLabel": "Aug 14",
       "title": "build fridays berlin - work on your startup alongside others (bring laptop)",
@@ -68,6 +68,20 @@
       "desc": "Get up-to-date information at: https://luma.com/h9b4btym  Address: The Delta Campus groundfloor, at \"The Delta\" stage Berlin, Berlin Germany  Hosted by Tjark Lindner, Felix Holtkamp & Alec Fritsch",
       "url": "https://luma.com/h9b4btym",
       "src": "luma.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
+      "date": "2026-08-19",
+      "dateLabel": "Aug 19",
+      "title": "PyData Berlin 2026 August Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "PyData Berlin Welcome to the PyData Berlin August meetup! We would like to welcome you all starting from 18:00. There will be food and drinks. The talks begin around 18.30 and the doors will close at 18:45. **Make sure t",
+      "url": "https://www.meetup.com/pydata-berlin/events/316084301/",
+      "src": "meetup.com",
       "auto": true,
       "month": "August 2026"
     },
