@@ -7,87 +7,8 @@ X-WR-CALNAME:Berlin AI Events
 X-WR-CALDESC:Conferences, meetups, and hackathons for AI builders in Berlin.
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:2026-08-13-ai-tinkerers-berlin-august-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:AI Tinkerers Berlin — August Meetup
-DESCRIPTION:Hands-on demo night for practitioners building with foundation 
- models — 8-minute talks/demos\, agents\, RAG\, MLOps. Application-based RS
- VP. https://berlin.aitinkerers.org/ Full calendar: https://berlin-ai-event
- s.vercel.app/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:Berlin (venue announced to registrants)
-URL:https://berlin.aitinkerers.org/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-13-aug-13-how-to-build-vision-data-agents-with-tools-skills-and-mcp@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:Aug 13 - How to Build Vision Data Agents with Tools\, Skills\, and 
- MCP
-DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup In this s
- ession\, you’ll learn how to build production-ready AI agents that can rea
- son over your data\, automate complex tasks\, and integrate seamlessly int
- o your exist https://www.meetup.com/berlin-ai-machine-learning-and-compute
- r-vision-meetup/events/315684162/ Full calendar: https://berlin-ai-events.
- vercel.app/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:Berlin
-URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
- eetup/events/315684162/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-13-brain-robotics-meetup-berlin@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:BRAIN Robotics MeetUp Berlin
-DESCRIPTION:Get up-to-date information at: https://luma.com/q2h5rlym  Addre
- ss: The Delta Campus Berlin\, Germany  Hosted by Samuel Harck\, Emil Hopf 
- & Janne https://luma.com/q2h5rlym Full calendar: https://berlin-ai-events.
- vercel.app/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:The Delta Campus\, Donaustraße 44\, 12043 Berlin\, Germany
-URL:https://luma.com/q2h5rlym
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-14-build-fridays-berlin-work-on-your-startup-alongside-others-bring-laptop@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SUMMARY:build fridays berlin - work on your startup alongside others (bring
-  laptop)
-DESCRIPTION:Get up-to-date information at: https://luma.com/k9jou28r  Addre
- ss: Futura House | Tech\, Longevity and Balance Berlin\, Germany  Hosted b
- y AI BEAVERS & 3 others https://luma.com/k9jou28r Full calendar: https://b
- erlin-ai-events.vercel.app/?utm_source=ics&utm_medium=calendar&utm_campaig
- n=subscribe
-LOCATION:Futura House | Tech\, Longevity and Balance\, Paul-Lincke-Ufer 39-
- 40\, 10999 Berlin\, Germany
-URL:https://luma.com/k9jou28r
-CATEGORIES:HACKATHON
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-14-10k-summerup-2026-pitchday-after-one-week-of-building-and-selling@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SUMMARY:10k€ SummerUP 2026 Pitchday - After One Week of Building and Sellin
- g.
-DESCRIPTION:Get up-to-date information at: https://luma.com/h9b4btym  Addre
- ss: The Delta Campus groundfloor\, at "The Delta" stage Berlin\, Berlin Ge
- rmany  Hosted by Tjark Lindner\, Felix Holtkamp & Alec Fritsch https://lum
- a.com/h9b4btym Full calendar: https://berlin-ai-events.vercel.app/?utm_sou
- rce=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:The Delta Campus\, Donaustraße 44\, 12043 Berlin\, Germany
-URL:https://luma.com/h9b4btym
-CATEGORIES:HACKATHON
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-08-19-pydata-berlin-2026-august-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:PyData Berlin 2026 August Meetup
@@ -103,7 +24,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-20-vector-space-meetup-qdrant@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Vector Space Meetup (Qdrant)
@@ -117,7 +38,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-20-aug-20-cold-pool-to-hot-queue-annotation-curation-with-fiftyone@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Aug 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne
@@ -134,7 +55,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-25-aug-25-advances-in-ai-at-nyu@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:Aug 25 - Advances in AI at NYU
@@ -151,7 +72,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-27-aug-27-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:Aug 27 - AI\, ML\, and Computer Vision Meetup
@@ -168,7 +89,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-01-ai-agents-berlin-h2-monthly-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:AI Agents Berlin — H2 monthly meetup
@@ -182,7 +103,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-02-sept-2-document-visual-ai-workshop@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Sept 2 - Document Visual AI Workshop
@@ -199,7 +120,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-15-buildersklub-berlin-september-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:buildersklub Berlin — September Meetup
@@ -213,7 +134,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-20-berlin-analytics-ai-hackathon@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Berlin Analytics & AI Hackathon
@@ -227,7 +148,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-google-agents-in-production-for-enterprises-virtual-ep-1@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Google Agents in Production for Enterprises (Virtual) - Ep 1
@@ -243,7 +164,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-sept-22-fiftyone-agent-automate-visual-ai-workflows-with-natural-language@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural
@@ -261,7 +182,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-24-sept-24-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Sept 24 - AI\, ML and Computer Vision Meetup
@@ -278,7 +199,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-30-sept-30-building-composable-vision-workflows-in-fiftyone@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Sept 30 - Building Composable Vision Workflows in FiftyOne
@@ -295,7 +216,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-08-oct-8-mcp-agents-and-skills-meetup-meetup@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Oct 8 - MCP\, Agents and Skills Meetup Meetup
@@ -312,7 +233,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-11-tech-europe-ai-hackathon-berlin-edition@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:{Tech: Europe} AI Hackathon — Berlin Edition
@@ -327,7 +248,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-12-ai-machine-learning-data-science-conference@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:AI\, Machine Learning & Data Science Conference
@@ -341,7 +262,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-the-berlin-ai-conference-2026@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:The Berlin AI Conference 2026
@@ -356,10 +277,10 @@ URL:https://www.eventbrite.ie/e/the-berlin-ai-conference-2026-tickets-19838
 CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-agentic-hackathon-from-research-to-commerce@berlin-ai-events
-DTSTAMP:20260813T064437Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+UID:2026-10-19-agentic-hackathon-from-research-to-commerce@berlin-ai-events
+DTSTAMP:20260815T054102Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
 SUMMARY:Agentic Hackathon: From Research to Commerce
 DESCRIPTION:Get up-to-date information at: https://luma.com/research-to-com
  merce  Address: Berlin Berlin\, Germany  Hosted by AI Agents Berlin\, 0xMi
@@ -372,7 +293,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-20-nvidia-gtc-berlin@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:NVIDIA GTC Berlin
@@ -387,7 +308,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-agentic-economy-forum@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Agentic Economy Forum
@@ -402,7 +323,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-berlin-robotics-ai-hackathon@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Berlin Robotics × AI Hackathon
@@ -416,7 +337,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-mlcon-berlin-2026@berlin-ai-events
-DTSTAMP:20260813T064437Z
+DTSTAMP:20260815T054102Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:MLcon Berlin 2026
