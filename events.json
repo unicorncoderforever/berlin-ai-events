@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T05:50:12.728Z",
-  "count": 22,
+  "generatedAt": "2026-08-19T05:46:05.840Z",
+  "count": 24,
   "events": [
     {
       "date": "2026-08-19",
@@ -111,6 +111,20 @@
       "desc": "Monthly meetup for decision-makers and hands-on builders on AI and automation in real workflows — real stories, no pitches.",
       "url": "https://buildersklub.com/meetups",
       "src": "buildersklub.com",
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "Sep 17",
+      "title": "Sept 17 - ADAS, AV, and AI Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Sep 17, 2026 9:00 AM - 11:",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316174929/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "September 2026"
     },
     {
@@ -262,6 +276,20 @@
       "desc": "NVIDIA's European GTC — Jensen Huang keynote Oct 21, then sessions and hands-on labs across the full AI stack: infra, open models, agentic and physical AI.",
       "url": "https://www.nvidia.com/en-eu/gtc/",
       "src": "nvidia.com",
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "title": "Near Legion Berlin #2",
+      "venue": "https://luma.com/event/evt-SLRxY0miJnFKemz",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/near-legion-berlin  Address: Check event page for more details.  Hosted by AI Agents Berlin",
+      "url": "https://luma.com/near-legion-berlin",
+      "src": "luma.com",
+      "auto": true,
       "month": "October 2026"
     },
     {
