@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-19T05:46:05.840Z",
-  "count": 24,
+  "generatedAt": "2026-08-21T05:47:40.712Z",
+  "count": 22,
   "events": [
-    {
-      "date": "2026-08-19",
-      "dateLabel": "Aug 19",
-      "title": "PyData Berlin 2026 August Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "PyData Berlin Welcome to the PyData Berlin August meetup! We would like to welcome you all starting from 18:00. There will be food and drinks. The talks begin around 18.30 and the doors will close at 18:45. **Make sure t",
-      "url": "https://www.meetup.com/pydata-berlin/events/316084301/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-20",
       "dateLabel": "Recurring (TBA)",
@@ -28,20 +14,6 @@
       "warn": "Recurring series; next edition inferred from cadence — watch luma.com/vsm-berlin for the locked date.",
       "url": "https://luma.com/vsm-berlin",
       "src": "luma.com/vsm-berlin",
-      "month": "August 2026"
-    },
-    {
-      "date": "2026-08-20",
-      "dateLabel": "Aug 20",
-      "title": "Aug 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup In this hands-on workshop, you'll use [FiftyOne ](https://docs.voxel51.com/)to run the full rare-class mining loop end-to-end on a large unlabeled image pool: compres",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/314739444/",
-      "src": "meetup.com",
-      "auto": true,
       "month": "August 2026"
     },
     {
@@ -259,7 +231,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin & 3 others",
       "url": "https://luma.com/research-to-commerce",
       "src": "luma.com",
       "auto": true,
