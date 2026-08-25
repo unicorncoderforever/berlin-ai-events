@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T05:44:49.267Z",
-  "count": 21,
+  "generatedAt": "2026-08-25T05:47:59.556Z",
+  "count": 24,
   "events": [
     {
       "date": "2026-08-25",
@@ -17,6 +17,20 @@
       "month": "August 2026"
     },
     {
+      "date": "2026-08-25",
+      "dateLabel": "Aug 25",
+      "title": "Algorand x402 Workshop & Global Challenge",
+      "venue": "https://luma.com/event/evt-RoG5t0nprTC9yDu",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/building-on-x402  Hosted by AI Agents Berlin & 0xMihej",
+      "url": "https://luma.com/building-on-x402",
+      "src": "luma.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
       "date": "2026-08-27",
       "dateLabel": "Aug 27",
       "title": "Aug 27 - AI, ML, and Computer Vision Meetup",
@@ -26,6 +40,20 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  Date, Time, and Location  Aug 27, 2026 9:00 AM - 11:00",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/314999455/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "August 2026"
+    },
+    {
+      "date": "2026-08-31",
+      "dateLabel": "Aug 31",
+      "title": "Enterprise AI - Agents in Production with Google and Snowflake",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026082501) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316236047/",
       "src": "meetup.com",
       "auto": true,
       "month": "August 2026"
@@ -194,6 +222,20 @@
       "desc": "Three-day research-and-practice conference — ~30 sessions on robotics, MLOps, trustworthy AI, HPC, and multimodal understanding.",
       "url": "https://www.createwith.com/cities/berlin",
       "src": "createwith.com",
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-14",
+      "dateLabel": "Oct 14",
+      "title": "Agentic Economy Forum",
+      "venue": "https://luma.com/event/evt-OWv4A6B57o06vY0",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/agentic-economy-forum  Address: Check event page for more details.  Hosted by AI Agents Berlin & Merantix Momentum",
+      "url": "https://luma.com/agentic-economy-forum",
+      "src": "luma.com",
+      "auto": true,
       "month": "October 2026"
     },
     {
