@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://berlin-ai-events.vercel.app/sitemap.xml
+Sitemap: https://berlinaievents.com/sitemap.xml

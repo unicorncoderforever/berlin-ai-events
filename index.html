@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="QaaJ9VvHVOaj-eXt3Q8vkZbkmrLslPTu7SxYlZjG5to" />
+<meta name="google-site-verification" content="bmjJYSY8ZBHYRJ2reWyCF-uszF33G-RfC8OiGxaQEWk" />
 <title>Berlin's AI Event Map — Conferences, Meetups & Hackathons | Berlin AI Events</title>
 <meta name="description" content="Every AI conference, meetup, and hackathon worth showing up for in Berlin — mapped like a transit line, updated every 2 days, and paired with the ecosystem players and a playbook for staying in the room.">
-<link rel="canonical" href="https://berlin-ai-events.vercel.app/">
+<link rel="canonical" href="https://berlinaievents.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Berlin's AI Event Map — Conferences, Meetups & Hackathons">
 <meta property="og:description" content="Every AI conference, meetup, and hackathon worth showing up for in Berlin — mapped like a transit line, updated every 2 days, and paired with the ecosystem players and a playbook for staying in the room.">
-<meta property="og:url" content="https://berlin-ai-events.vercel.app/">
+<meta property="og:url" content="https://berlinaievents.com/">
 <meta property="og:site_name" content="Berlin AI Events">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -700,7 +700,7 @@ function gcalUrl(e){
   const start = e.date.replace(/-/g,"");
   const endDate = new Date(e.date+"T00:00:00Z"); endDate.setUTCDate(endDate.getUTCDate()+1);
   const end = endDate.toISOString().slice(0,10).replace(/-/g,"");
-  const backLink = "https://berlin-ai-events.vercel.app/?utm_source=gcal&utm_medium=calendar&utm_campaign=add_event";
+  const backLink = "https://berlinaievents.com/?utm_source=gcal&utm_medium=calendar&utm_campaign=add_event";
   const params = new URLSearchParams({
     action:"TEMPLATE",
     text:e.title,

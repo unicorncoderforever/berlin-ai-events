@@ -1,35 +1,7 @@
 {
-  "generatedAt": "2026-08-25T05:47:59.556Z",
-  "count": 24,
+  "generatedAt": "2026-08-27T15:26:28.156Z",
+  "count": 25,
   "events": [
-    {
-      "date": "2026-08-25",
-      "dateLabel": "Aug 25",
-      "title": "Aug 25 - Advances in AI at NYU",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from researchers at NYU on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Aug 25, 2026 9:",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315685027/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
-    {
-      "date": "2026-08-25",
-      "dateLabel": "Aug 25",
-      "title": "Algorand x402 Workshop & Global Challenge",
-      "venue": "https://luma.com/event/evt-RoG5t0nprTC9yDu",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/building-on-x402  Hosted by AI Agents Berlin & 0xMihej",
-      "url": "https://luma.com/building-on-x402",
-      "src": "luma.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-27",
       "dateLabel": "Aug 27",
@@ -170,6 +142,34 @@
       "month": "September 2026"
     },
     {
+      "date": "2026-09-25",
+      "dateLabel": "Sep 25",
+      "title": "Sept 25 - Berlin Physical AI, ML, and Computer Vision Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our in-person meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Sep 25, 2026 5:30 PM - 8",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316271403/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-26",
+      "dateLabel": "Sep 26",
+      "title": "Sept 26 - Physical AI Workshop and Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us at MotionLab.Berlin on September 26 for the Munich Physical AI Workshop and Meetup, co-presented by Nebius and Voxel51. Seats are limited, **[Pre-registration",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316271166/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
       "date": "2026-09-30",
       "dateLabel": "Sep 30",
       "title": "Sept 30 - Building Composable Vision Workflows in FiftyOne",
@@ -259,7 +259,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin & 3 others",
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
       "url": "https://luma.com/research-to-commerce",
       "src": "luma.com",
       "auto": true,
@@ -332,6 +332,20 @@
       "url": "https://mlconference.ai/berlin/",
       "src": "mlconference.ai",
       "month": "November 2026"
+    },
+    {
+      "date": "2027-03-18",
+      "dateLabel": "Mar 18",
+      "title": "AI Agents Summit 2027",
+      "venue": "Berlin, Germany",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/ai-agents-summit-2027  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin",
+      "url": "https://luma.com/ai-agents-summit-2027",
+      "src": "luma.com",
+      "auto": true,
+      "month": "March 2027"
     }
   ]
 }
