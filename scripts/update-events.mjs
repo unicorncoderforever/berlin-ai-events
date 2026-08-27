@@ -18,7 +18,7 @@ import { dirname, join } from "node:path";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "events.json");
 const ICS_OUT = join(ROOT, "events.ics");
-const SITE_URL = "https://berlinaievents.com/";
+const SITE_URL = "https://www.berlinaievents.com/";
 
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const MONTHS_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
