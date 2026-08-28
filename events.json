@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T05:42:49.314Z",
-  "count": 30,
+  "generatedAt": "2026-08-28T05:54:21.317Z",
+  "count": 33,
   "events": [
     {
       "date": "2026-08-31",
@@ -142,6 +142,19 @@
     },
     {
       "date": "2026-09-22",
+      "dateLabel": "Sep 22–23",
+      "title": "AIDAQ 2026 — AI, Data and Quantum Summit",
+      "venue": "bcc Berlin Congress Center",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Europe-scale summit on AI, data ecosystems, and quantum computing — 2,100+ participants and 170+ speakers across strategic, industrial, and technological tracks.",
+      "url": "https://aidaq.berlin/",
+      "src": "aidaq.berlin",
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-22",
       "dateLabel": "Sep 22",
       "title": "Google Agents in Production for Enterprises (Virtual) - Ep 1",
       "venue": "Berlin",
@@ -251,6 +264,19 @@
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "Oct 7–9",
+      "title": "ai devCon 2026",
+      "venue": "CityCube Berlin",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "International developer conference on AI-assisted software engineering and intelligent applications — 400+ speakers, ~300 sessions.",
+      "url": "https://www.nextappcon.com/ai-devcon",
+      "src": "nextappcon.com",
+      "month": "October 2026"
     },
     {
       "date": "2026-10-08",
@@ -401,6 +427,19 @@
       "url": "https://mlconference.ai/berlin/",
       "src": "mlconference.ai",
       "month": "November 2026"
+    },
+    {
+      "date": "2026-12-04",
+      "dateLabel": "Dec 4 & 7",
+      "title": "AI Coding Summit — Berlin Edition",
+      "venue": "Kosmos, Karl-Marx-Allee 131A",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Conference on how AI transforms software development — talks and hands-on workshops on AI-powered engineering practices.",
+      "url": "https://aicodingsummit.com/berlin",
+      "src": "aicodingsummit.com",
+      "month": "December 2026"
     },
     {
       "date": "2027-03-18",
