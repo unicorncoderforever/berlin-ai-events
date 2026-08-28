@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-27T16:30:36.392Z",
-  "count": 25,
+  "generatedAt": "2026-08-28T05:42:49.314Z",
+  "count": 30,
   "events": [
-    {
-      "date": "2026-08-27",
-      "dateLabel": "Aug 27",
-      "title": "Aug 27 - AI, ML, and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  Date, Time, and Location  Aug 27, 2026 9:00 AM - 11:00",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/314999455/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-08-31",
       "dateLabel": "Aug 31",
@@ -42,6 +28,19 @@
       "warn": "H2 2026 season announced; individual meetup dates are published on their Luma close to each event.",
       "url": "https://luma.com/aiagentsberlin",
       "src": "luma.com/aiagentsberlin",
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "Sep 2–3",
+      "title": "Data Days 2026",
+      "venue": "Factory Berlin Mitte",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Two-day conference for data practitioners and AI builders — talks include \"Agents Are Shipping Now\" and \"AI as a Force Multiplier\"; application-based tickets.",
+      "url": "https://data-days.a11.com/",
+      "src": "data-days.a11.com",
       "month": "September 2026"
     },
     {
@@ -72,6 +71,20 @@
       "month": "September 2026"
     },
     {
+      "date": "2026-09-16",
+      "dateLabel": "Sep 16",
+      "title": "Engineering & AI Builders Community Meetup",
+      "venue": "Hardenbergstrasee 32, 16023 Berlin: Floor 8",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/berlin-sept-meetup  Address: Hardenbergstrasee 32, 16023 Berlin: Floor 8  Hosted by Qdrant",
+      "url": "https://luma.com/berlin-sept-meetup",
+      "src": "luma.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
       "date": "2026-09-17",
       "dateLabel": "Sep 17",
       "title": "Sept 17 - ADAS, AV, and AI Meetup",
@@ -81,6 +94,34 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Sep 17, 2026 9:00 AM - 11:",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316174929/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "Sep 17",
+      "title": "Vector Space Stream | Latest Research from Qdrant",
+      "venue": "https://luma.com/event/evt-FbhDrPOXjaZdsir",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/vector-space-stream  Hosted by Qdrant",
+      "url": "https://luma.com/vector-space-stream",
+      "src": "luma.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "Sep 17",
+      "title": "Beyond Technology: AI & Data for the Common Good",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Women in Big Data Berlin Meetup Group What if the most valuable use of AI isn’t automation, but helping people make **better decisions in situations of uncertainty**?  Join **Women in Big Data Berlin** and the **Bertelsm",
+      "url": "https://www.meetup.com/women-in-big-data-berlin-meetup-group/events/316242642/",
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
@@ -124,6 +165,34 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Learn about FiftyOne Agent, an AI assistant built directly into FiftyOne that turns plain-language requests into real dataset operations.  **Date, Time and Location**",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316064297/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-23",
+      "dateLabel": "Sep 23",
+      "title": "Qdrant @ AI Engineer World Fair Paris",
+      "venue": "STATION F, 5 Parv. Alan Turing, 75013 Paris, France",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/aiengwfparis-qdrant  Address: STATION F Paris, France  Hosted by Qdrant",
+      "url": "https://luma.com/aiengwfparis-qdrant",
+      "src": "luma.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-23",
+      "dateLabel": "Sep 23–25",
+      "title": "Qdrant @ WeAreDevelopers World Congress San Jose",
+      "venue": "San Jose McEnery Convention Center, 150 W San Carlos St, San Jose, CA 95113, USA",
+      "type": "conference",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/wearedev-qdrant  Address: San Jose McEnery Convention Center Come to our booth! San Jose, CA United States  Hosted by Qdrant",
+      "url": "https://luma.com/wearedev-qdrant",
+      "src": "luma.com",
       "auto": true,
       "month": "September 2026"
     },

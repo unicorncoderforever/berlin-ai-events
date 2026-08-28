@@ -37,12 +37,12 @@
     },
     {
       "name": "GDG Berlin (AI Builders Meetup)",
-      "url": "PASTE_LUMA_ICAL_URL_HERE",
-      "note": "GDG Berlin hosts on gdg.community.dev (no chapter-level iCal), but their AI Builders Meetups register via Luma — subscribe to the organizer's Luma calendar linked from a recent event page and paste the iCal URL here.",
+      "url": "https://api.luma.com/ics/get?entity=calendar&id=cal-AdHhuBNRObJtmMd",
+      "note": "GDG Berlin's Luma calendar (organizer slug luma.com/gdg-berlin).",
       "src": "gdg.community.dev",
       "defaultType": "meetup",
       "eco": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "AI Agents Berlin (Luma)",
@@ -70,7 +70,39 @@
       "src": "luma.com",
       "defaultType": "meetup",
       "eco": true,
-      "enabled": false
+      "enabled": true
+    },
+    {
+      "name": "Berlin MLOps Community",
+      "url": "https://www.meetup.com/berlin-mlops-community/events/ical/",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
+    },
+    {
+      "name": "Women in Big Data — Berlin",
+      "url": "https://www.meetup.com/women-in-big-data-berlin-meetup-group/events/ical/",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
+    },
+    {
+      "name": "Berlin Women in Machine Learning & Data Science",
+      "url": "https://www.meetup.com/berlin-women-in-machine-learning-and-data-science/events/ical/",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
+    },
+    {
+      "name": "Women Techmakers Berlin",
+      "url": "https://www.meetup.com/women-techmakers-berlin/events/ical/",
+      "src": "meetup.com",
+      "defaultType": "meetup",
+      "eco": false,
+      "enabled": true
     }
   ]
 }

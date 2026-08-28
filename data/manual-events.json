@@ -139,17 +139,16 @@
       "src": "luma.com"
     },
     {
-      "date": "2026-08-20",
-      "dateLabel": "Recurring (TBA)",
-      "title": "Vector Space Meetup (Qdrant)",
-      "venue": "Merantix AI Campus, Max-Urich-Str. 3",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": false,
-      "desc": "Qdrant-hosted retrieval meetup — recent edition paneled n8n, Cognee, deepset, and LlamaIndex on retrieval in the age of agents.",
-      "warn": "Recurring series; next edition inferred from cadence — watch luma.com/vsm-berlin for the locked date.",
-      "url": "https://luma.com/vsm-berlin",
-      "src": "luma.com/vsm-berlin"
+      "date": "2026-09-02",
+      "dateLabel": "Sep 2–3",
+      "title": "Data Days 2026",
+      "venue": "Factory Berlin Mitte",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Two-day conference for data practitioners and AI builders — talks include \"Agents Are Shipping Now\" and \"AI as a Force Multiplier\"; application-based tickets.",
+      "url": "https://data-days.a11.com/",
+      "src": "data-days.a11.com"
     }
   ]
 }
