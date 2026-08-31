@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T11:39:49.492Z",
-  "count": 33,
+  "generatedAt": "2026-08-31T11:35:47.402Z",
+  "count": 34,
   "events": [
     {
       "date": "2026-08-31",
@@ -41,6 +41,20 @@
       "desc": "Two-day conference for data practitioners and AI builders — talks include \"Agents Are Shipping Now\" and \"AI as a Force Multiplier\"; application-based tickets.",
       "url": "https://data-days.a11.com/",
       "src": "data-days.a11.com",
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "Sep 2",
+      "title": "Google AI Deep Dive (Ep 3) - Multimodal data",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026090210) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316333004/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "September 2026"
     },
     {
