@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-31T11:35:47.402Z",
-  "count": 34,
+  "generatedAt": "2026-09-01T10:06:10.683Z",
+  "count": 33,
   "events": [
-    {
-      "date": "2026-08-31",
-      "dateLabel": "Aug 31",
-      "title": "Enterprise AI - Agents in Production with Google and Snowflake",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026082501) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316236047/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "August 2026"
-    },
     {
       "date": "2026-09-01",
       "dateLabel": "Sep (dates TBA)",
