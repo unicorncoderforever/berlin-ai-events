@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-09-01T10:06:10.683Z",
-  "count": 33,
+  "generatedAt": "2026-09-03T09:50:26.379Z",
+  "count": 34,
   "events": [
-    {
-      "date": "2026-09-01",
-      "dateLabel": "Sep (dates TBA)",
-      "title": "AI Agents Berlin — H2 monthly meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": false,
-      "desc": "Monthly IRL meetups plus online sessions across two tracks (Personalized AI, DeFAI), building toward the Agentic Economy Forum.",
-      "warn": "H2 2026 season announced; individual meetup dates are published on their Luma close to each event.",
-      "url": "https://luma.com/aiagentsberlin",
-      "src": "luma.com/aiagentsberlin",
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-02",
       "dateLabel": "Sep 2–3",
@@ -30,15 +16,15 @@
       "month": "September 2026"
     },
     {
-      "date": "2026-09-02",
-      "dateLabel": "Sep 2",
-      "title": "Google AI Deep Dive (Ep 3) - Multimodal data",
+      "date": "2026-09-04",
+      "dateLabel": "Sep 4",
+      "title": "AI Deep Dive Webinar - Taking LangGraph to production",
       "venue": "Berlin",
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026090210) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316333004/",
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026091710) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316397963/",
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
@@ -58,6 +44,20 @@
       "month": "September 2026"
     },
     {
+      "date": "2026-09-10",
+      "dateLabel": "Sep 10",
+      "title": "KI, Agenten und die Berlin-Wahl",
+      "venue": "https://luma.com/event/evt-2OaXYzJsNubHQjU",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/KI-in-Berlin  Address: Check event page for more details.  Hosted by AI Agents Berlin, Quinn @Ciruit (prev. w3.hub) & Timo Spring",
+      "url": "https://luma.com/KI-in-Berlin",
+      "src": "luma.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
       "date": "2026-09-15",
       "dateLabel": "Sep 15",
       "title": "buildersklub Berlin — September Meetup",
@@ -73,7 +73,7 @@
     {
       "date": "2026-09-16",
       "dateLabel": "Sep 16",
-      "title": "Engineering & AI Builders Community Meetup",
+      "title": "Bring Your Own Demo Night with Qdrant & Cognee",
       "venue": "Hardenbergstrasee 32, 16023 Berlin: Floor 8",
       "type": "meetup",
       "eco": true,
@@ -219,6 +219,20 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup on September 24 to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Sep 24, 20",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315388195/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-24",
+      "dateLabel": "Sep 24",
+      "title": "The future of health: Women leading innovation in Health & AI",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Women Techmakers Berlin Join us at Doctolib for an inspiring evening of networking, snaks and drinks and great discussion about the future of healthcare in the era of AI. we will have three women leaders sharing great in",
+      "url": "https://www.meetup.com/wtm-berlin/events/316366833/",
       "src": "meetup.com",
       "auto": true,
       "month": "September 2026"
