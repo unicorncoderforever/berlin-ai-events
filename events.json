@@ -1,34 +1,7 @@
 {
-  "generatedAt": "2026-09-03T09:50:26.379Z",
-  "count": 34,
+  "generatedAt": "2026-09-05T09:04:55.995Z",
+  "count": 32,
   "events": [
-    {
-      "date": "2026-09-02",
-      "dateLabel": "Sep 2–3",
-      "title": "Data Days 2026",
-      "venue": "Factory Berlin Mitte",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Two-day conference for data practitioners and AI builders — talks include \"Agents Are Shipping Now\" and \"AI as a Force Multiplier\"; application-based tickets.",
-      "url": "https://data-days.a11.com/",
-      "src": "data-days.a11.com",
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-04",
-      "dateLabel": "Sep 4",
-      "title": "AI Deep Dive Webinar - Taking LangGraph to production",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026091710) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316397963/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-09",
       "dateLabel": "Sep 9",
