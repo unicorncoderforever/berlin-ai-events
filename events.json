@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T10:18:55.099Z",
-  "count": 32,
+  "generatedAt": "2026-09-09T09:45:37.746Z",
+  "count": 33,
   "events": [
     {
       "date": "2026-09-09",
@@ -199,6 +199,20 @@
     {
       "date": "2026-09-24",
       "dateLabel": "Sep 24",
+      "title": "Unconference: Open Weights, Open Agents",
+      "venue": "deepset GmbH, Zinnowitzer Str. 1, 10115 Berlin, Germany",
+      "type": "conference",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/haystack-priorlabs  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 5 others",
+      "url": "https://luma.com/haystack-priorlabs",
+      "src": "luma.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-24",
+      "dateLabel": "Sep 24",
       "title": "The future of health: Women leading innovation in Health & AI",
       "venue": "Berlin",
       "type": "meetup",
@@ -337,11 +351,11 @@
       "date": "2026-10-19",
       "dateLabel": "Oct 19",
       "title": "Agentic Hackathon: From Research to Commerce",
-      "venue": "Berlin, Germany",
+      "venue": "The Delta Campus, Donaustraße 44, 12043 Berlin, Germany",
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: Berlin Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: The Delta Campus Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
       "url": "https://luma.com/research-to-commerce",
       "src": "luma.com",
       "auto": true,
