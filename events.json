@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-09-09T09:45:37.746Z",
+  "generatedAt": "2026-09-11T09:41:18.805Z",
   "count": 33,
   "events": [
-    {
-      "date": "2026-09-09",
-      "dateLabel": "Sep 9",
-      "title": "Sept 9 - Physical AI Has a Data Problem. It Isn't Collection Workshop",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop goes from raw recording to curated corpus. We'll cover what MCAP is and why it's built that way, tour real Physical AI datasets across driving, aquatic,",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/314739561/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-10",
       "dateLabel": "Sep 10",
@@ -41,6 +27,20 @@
       "desc": "Monthly meetup for decision-makers and hands-on builders on AI and automation in real workflows — real stories, no pitches.",
       "url": "https://buildersklub.com/meetups",
       "src": "buildersklub.com",
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-15",
+      "dateLabel": "Sep 15",
+      "title": "AI Coding Workshop - Berlin",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: This workshop is hosted by our partner, AI Eclipse Foundation. They have graciously provided 100 free tickets (value of $200/each) exclusively for AICamp members. Visit the [even",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316485554/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "September 2026"
     },
     {
@@ -246,7 +246,7 @@
       "type": "meetup",
       "eco": true,
       "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us at MotionLab.Berlin on September 26 for the Munich Physical AI Workshop and Meetup, co-presented by Nebius and Voxel51. Seats are limited, **[Pre-registration",
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us at MotionLab.Berlin on September 26 for the Berlin Physical AI Workshop and Meetup, co-presented by Nebius and Voxel51. Seats are limited, **[Pre-registration",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316271166/",
       "src": "meetup.com",
       "auto": true,
