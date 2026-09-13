@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-09-11T09:41:18.805Z",
-  "count": 33,
+  "generatedAt": "2026-09-13T10:17:38.655Z",
+  "count": 32,
   "events": [
-    {
-      "date": "2026-09-10",
-      "dateLabel": "Sep 10",
-      "title": "KI, Agenten und die Berlin-Wahl",
-      "venue": "https://luma.com/event/evt-2OaXYzJsNubHQjU",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/KI-in-Berlin  Address: Check event page for more details.  Hosted by AI Agents Berlin, Quinn @Ciruit (prev. w3.hub) & Timo Spring",
-      "url": "https://luma.com/KI-in-Berlin",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-15",
       "dateLabel": "Sep 15",
