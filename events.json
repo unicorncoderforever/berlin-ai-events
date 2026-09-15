@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T10:17:38.655Z",
-  "count": 32,
+  "generatedAt": "2026-09-15T10:04:46.985Z",
+  "count": 33,
   "events": [
     {
       "date": "2026-09-15",
@@ -26,6 +26,20 @@
       "desc": "Berlin AI Developers Group **Important**: This workshop is hosted by our partner, AI Eclipse Foundation. They have graciously provided 100 free tickets (value of $200/each) exclusively for AICamp members. Visit the [even",
       "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316485554/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "September 2026"
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "Sep 16",
+      "title": "Collaborative Agent Hackathon",
+      "venue": "Impact Hub Berlin, Rollbergstraße 28A, 12053 Berlin, Germany",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/98drmtu1  Address: Impact Hub Berlin Berlin, Germany  Hosted by Nicolas Heinz & 5 others",
+      "url": "https://luma.com/98drmtu1",
+      "src": "luma.com",
       "auto": true,
       "month": "September 2026"
     },
@@ -199,12 +213,12 @@
     {
       "date": "2026-09-24",
       "dateLabel": "Sep 24",
-      "title": "The future of health: Women leading innovation in Health & AI",
+      "title": "Women leading innovation in Health & AI",
       "venue": "Berlin",
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Women Techmakers Berlin Join us at Doctolib for an inspiring evening of networking, snaks and drinks and great discussion about the future of healthcare in the era of AI. we will have three women leaders sharing great in",
+      "desc": "Women Techmakers Berlin Join us at Doctolib for an inspiring evening of networking, snacks, drinks and great conversation about the future of AI, health and technology. We will bring together three women working across A",
       "url": "https://www.meetup.com/wtm-berlin/events/316366833/",
       "src": "meetup.com",
       "auto": true,
