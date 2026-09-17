@@ -1,48 +1,7 @@
 {
-  "generatedAt": "2026-09-15T10:04:46.985Z",
-  "count": 33,
+  "generatedAt": "2026-09-17T09:59:13.068Z",
+  "count": 31,
   "events": [
-    {
-      "date": "2026-09-15",
-      "dateLabel": "Sep 15",
-      "title": "buildersklub Berlin — September Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Monthly meetup for decision-makers and hands-on builders on AI and automation in real workflows — real stories, no pitches.",
-      "url": "https://buildersklub.com/meetups",
-      "src": "buildersklub.com",
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-15",
-      "dateLabel": "Sep 15",
-      "title": "AI Coding Workshop - Berlin",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: This workshop is hosted by our partner, AI Eclipse Foundation. They have graciously provided 100 free tickets (value of $200/each) exclusively for AICamp members. Visit the [even",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316485554/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-16",
-      "dateLabel": "Sep 16",
-      "title": "Collaborative Agent Hackathon",
-      "venue": "Impact Hub Berlin, Rollbergstraße 28A, 12053 Berlin, Germany",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/98drmtu1  Address: Impact Hub Berlin Berlin, Germany  Hosted by Nicolas Heinz & 5 others",
-      "url": "https://luma.com/98drmtu1",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-16",
       "dateLabel": "Sep 16",
@@ -51,7 +10,7 @@
       "type": "meetup",
       "eco": true,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/berlin-sept-meetup  Address: Hardenbergstrasee 32, 16023 Berlin: Floor 8  Hosted by Qdrant",
+      "desc": "Get up-to-date information at: https://luma.com/berlin-sept-meetup  Address: Hardenbergstrasee 32, 16023 Berlin: Floor 8  Hosted by Qdrant & Ide Schwartz",
       "url": "https://luma.com/berlin-sept-meetup",
       "src": "luma.com",
       "auto": true,
@@ -348,6 +307,20 @@
       "month": "October 2026"
     },
     {
+      "date": "2026-10-15",
+      "dateLabel": "Oct 15",
+      "title": "Oct 15 - AI, ML, and Computer Vision Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Place and Location**  Oct 15, 2026 9:00 AM - 11",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572390/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
       "date": "2026-10-19",
       "dateLabel": "Oct 19",
       "title": "Agentic Hackathon: From Research to Commerce",
@@ -372,20 +345,6 @@
       "desc": "NVIDIA's European GTC — Jensen Huang keynote Oct 21, then sessions and hands-on labs across the full AI stack: infra, open models, agentic and physical AI.",
       "url": "https://www.nvidia.com/en-eu/gtc/",
       "src": "nvidia.com",
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "title": "Near Legion Berlin #2",
-      "venue": "https://luma.com/event/evt-SLRxY0miJnFKemz",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/near-legion-berlin  Address: Check event page for more details.  Hosted by AI Agents Berlin",
-      "url": "https://luma.com/near-legion-berlin",
-      "src": "luma.com",
-      "auto": true,
       "month": "October 2026"
     },
     {
@@ -414,6 +373,20 @@
       "warn": "First edition announced; date not locked at research time — verify on Luma.",
       "url": "https://luma.com/1857f2wa",
       "src": "luma.com",
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "title": "Nov 11 - AI, ML and Computer Vision Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Nov 11, 2026 9:00 AM - 11:",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572590/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "November 2026"
     },
     {
