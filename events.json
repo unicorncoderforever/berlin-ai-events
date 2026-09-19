@@ -1,63 +1,7 @@
 {
-  "generatedAt": "2026-09-17T09:59:13.068Z",
-  "count": 31,
+  "generatedAt": "2026-09-19T09:30:42.850Z",
+  "count": 30,
   "events": [
-    {
-      "date": "2026-09-16",
-      "dateLabel": "Sep 16",
-      "title": "Bring Your Own Demo Night with Qdrant & Cognee",
-      "venue": "Hardenbergstrasee 32, 16023 Berlin: Floor 8",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/berlin-sept-meetup  Address: Hardenbergstrasee 32, 16023 Berlin: Floor 8  Hosted by Qdrant & Ide Schwartz",
-      "url": "https://luma.com/berlin-sept-meetup",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Sep 17",
-      "title": "Sept 17 - ADAS, AV, and AI Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Sep 17, 2026 9:00 AM - 11:",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316174929/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Sep 17",
-      "title": "Vector Space Stream | Latest Research from Qdrant",
-      "venue": "https://luma.com/event/evt-FbhDrPOXjaZdsir",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/vector-space-stream  Hosted by Qdrant",
-      "url": "https://luma.com/vector-space-stream",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Sep 17",
-      "title": "Beyond Technology: AI & Data for the Common Good",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Women in Big Data Berlin Meetup Group What if the most valuable use of AI isn’t automation, but helping people make **better decisions in situations of uncertainty**?  Join **Women in Big Data Berlin** and the **Bertelsm",
-      "url": "https://www.meetup.com/women-in-big-data-berlin-meetup-group/events/316242642/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-20",
       "dateLabel": "Autumn (TBA)",
@@ -226,6 +170,20 @@
       "month": "September 2026"
     },
     {
+      "date": "2026-10-02",
+      "dateLabel": "Oct 2",
+      "title": "Oct 1 - APAC AI, ML and Computer Vision Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our APAC time-zone friendly virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Oc",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316613722/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
       "date": "2026-10-07",
       "dateLabel": "Oct 7–9",
       "title": "ai devCon 2026",
@@ -249,6 +207,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on MCP, agents and skills.  **Date, Time and Location**  Oct 08, 2026 9:00 AM - 11:00 AM PST Online. **[Register fo",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316022259/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-10",
+      "dateLabel": "Oct 10",
+      "title": "Hard Negatives Meetup | Engineers Debate Night with Qdrant & Neo4j",
+      "venue": "Manny’s, 3092 16th St, San Francisco, CA 94103, USA",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/sf-meetup-oct26  Address: Manny’s San Francisco, CA United States  Hosted by Qdrant",
+      "url": "https://luma.com/sf-meetup-oct26",
+      "src": "luma.com",
       "auto": true,
       "month": "October 2026"
     },
@@ -400,6 +372,20 @@
       "desc": "Week-long generative-AI and ML engineering conference — workshops, keynotes, and an expo; also attendable online.",
       "url": "https://mlconference.ai/berlin/",
       "src": "mlconference.ai",
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "title": "Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop is a hands-on tour of what actually breaks when you load real LeRobot datasets, and how Voxel51's native LeRobot support in FiftyOne catches it.  **Date",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316617419/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "November 2026"
     },
     {
