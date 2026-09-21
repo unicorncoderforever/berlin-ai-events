@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:30:42.850Z",
+  "generatedAt": "2026-09-21T10:43:59.645Z",
   "count": 30,
   "events": [
     {
@@ -107,7 +107,7 @@
       "type": "conference",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/haystack-priorlabs  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 5 others",
+      "desc": "Get up-to-date information at: https://luma.com/haystack-priorlabs  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 6 others",
       "url": "https://luma.com/haystack-priorlabs",
       "src": "luma.com",
       "auto": true,
