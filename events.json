@@ -1,90 +1,7 @@
 {
-  "generatedAt": "2026-09-23T09:59:00.365Z",
-  "count": 28,
+  "generatedAt": "2026-09-25T10:11:53.627Z",
+  "count": 24,
   "events": [
-    {
-      "date": "2026-09-22",
-      "dateLabel": "Sep 22–23",
-      "title": "AIDAQ 2026 — AI, Data and Quantum Summit",
-      "venue": "bcc Berlin Congress Center",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Europe-scale summit on AI, data ecosystems, and quantum computing — 2,100+ participants and 170+ speakers across strategic, industrial, and technological tracks.",
-      "url": "https://aidaq.berlin/",
-      "src": "aidaq.berlin",
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-23",
-      "dateLabel": "Sep 23",
-      "title": "Qdrant @ AI Engineer World Fair Paris",
-      "venue": "STATION F, 5 Parv. Alan Turing, 75013 Paris, France",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/aiengwfparis-qdrant  Address: STATION F Paris, France  Hosted by Qdrant",
-      "url": "https://luma.com/aiengwfparis-qdrant",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-23",
-      "dateLabel": "Sep 23–25",
-      "title": "Qdrant @ WeAreDevelopers World Congress San Jose",
-      "venue": "San Jose McEnery Convention Center, 150 W San Carlos St, San Jose, CA 95113, USA",
-      "type": "conference",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/wearedev-qdrant  Address: San Jose McEnery Convention Center Come to our booth! San Jose, CA United States  Hosted by Qdrant",
-      "url": "https://luma.com/wearedev-qdrant",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-24",
-      "dateLabel": "Sep 24",
-      "title": "Sept 24 - AI, ML and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup on September 24 to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Sep 24, 20",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/315388195/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-24",
-      "dateLabel": "Sep 24",
-      "title": "Unconference: Open Weights, Open Agents",
-      "venue": "deepset GmbH, Zinnowitzer Str. 1, 10115 Berlin, Germany",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/haystack-priorlabs  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 6 others",
-      "url": "https://luma.com/haystack-priorlabs",
-      "src": "luma.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-24",
-      "dateLabel": "Sep 24",
-      "title": "Women leading innovation in Health & AI",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Women Techmakers Berlin Join us at Doctolib for an inspiring evening of networking, snacks, drinks and great conversation about the future of AI, health and technology. We will bring together three women working across A",
-      "url": "https://www.meetup.com/wtm-berlin/events/316366833/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-09-25",
       "dateLabel": "Sep 25",
@@ -114,20 +31,6 @@
       "month": "September 2026"
     },
     {
-      "date": "2026-09-30",
-      "dateLabel": "Sep 30",
-      "title": "Sept 30 - Building Composable Vision Workflows in FiftyOne",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin framework to build custom computer vision applications. You’ll learn to extend the F",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316064710/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
       "date": "2026-10-02",
       "dateLabel": "Oct 2",
       "title": "Oct 1 - APAC AI, ML and Computer Vision Meetup",
@@ -152,6 +55,20 @@
       "desc": "International developer conference on AI-assisted software engineering and intelligent applications — 400+ speakers, ~300 sessions.",
       "url": "https://www.nextappcon.com/ai-devcon",
       "src": "nextappcon.com",
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "Oct 7",
+      "title": "Oct 7 - Building Composable Vision Workflows in FiftyOne",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin framework to build custom computer vision applications. You’ll learn to extend the F",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316064710/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "October 2026"
     },
     {
@@ -207,6 +124,20 @@
       "desc": "Three-day research-and-practice conference — ~30 sessions on robotics, MLOps, trustworthy AI, HPC, and multimodal understanding.",
       "url": "https://www.createwith.com/cities/berlin",
       "src": "createwith.com",
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-14",
+      "dateLabel": "Oct 14",
+      "title": "Google AI Live + Labs - Berlin",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important Note**: You must register on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W2026101401) is required for admission. RSP on meetup is turned off.  Join Google Cl",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316681169/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "October 2026"
     },
     {
@@ -358,6 +289,20 @@
       "desc": "Week-long generative-AI and ML engineering conference — workshops, keynotes, and an expo; also attendable online.",
       "url": "https://mlconference.ai/berlin/",
       "src": "mlconference.ai",
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "title": "Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop is a hands-on tour of what actually breaks when you load real LeRobot datasets, and how Voxel51's native LeRobot support in FiftyOne catches it.  **Date",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316617419/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "November 2026"
     },
     {

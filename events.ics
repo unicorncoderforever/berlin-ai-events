@@ -7,100 +7,8 @@ X-WR-CALNAME:Berlin AI Events
 X-WR-CALDESC:Conferences, meetups, and hackathons for AI builders in Berlin.
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:2026-09-22-aidaq-2026-ai-data-and-quantum-summit@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:AIDAQ 2026 — AI\, Data and Quantum Summit
-DESCRIPTION:Europe-scale summit on AI\, data ecosystems\, and quantum compu
- ting — 2\,100+ participants and 170+ speakers across strategic\, industria
- l\, and technological tracks. https://aidaq.berlin/ Full calendar: https:/
- /www.berlinaievents.com/?utm_source=ics&utm_medium=calendar&utm_campaign=s
- ubscribe
-LOCATION:bcc Berlin Congress Center
-URL:https://aidaq.berlin/
-CATEGORIES:CONFERENCE
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-23-qdrant-ai-engineer-world-fair-paris@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:Qdrant @ AI Engineer World Fair Paris
-DESCRIPTION:Get up-to-date information at: https://luma.com/aiengwfparis-qd
- rant  Address: STATION F Paris\, France  Hosted by Qdrant https://luma.com
- /aiengwfparis-qdrant Full calendar: https://www.berlinaievents.com/?utm_so
- urce=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:STATION F\, 5 Parv. Alan Turing\, 75013 Paris\, France
-URL:https://luma.com/aiengwfparis-qdrant
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-23-qdrant-wearedevelopers-world-congress-san-jose@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:Qdrant @ WeAreDevelopers World Congress San Jose
-DESCRIPTION:Get up-to-date information at: https://luma.com/wearedev-qdrant
-   Address: San Jose McEnery Convention Center Come to our booth! San Jose\
- , CA United States  Hosted by Qdrant https://luma.com/wearedev-qdrant Full
-  calendar: https://www.berlinaievents.com/?utm_source=ics&utm_medium=calen
- dar&utm_campaign=subscribe
-LOCATION:San Jose McEnery Convention Center\, 150 W San Carlos St\, San Jos
- e\, CA 95113\, USA
-URL:https://luma.com/wearedev-qdrant
-CATEGORIES:CONFERENCE
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-24-sept-24-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Sept 24 - AI\, ML and Computer Vision Meetup
-DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup Join our 
- virtual meetup on September 24 to hear talks from experts on cutting-edge 
- topics across AI\, ML\, and computer vision.  **Date\, Time and Location**
-   Sep 24\, 20 https://www.meetup.com/berlin-ai-machine-learning-and-comput
- er-vision-meetup/events/315388195/ Full calendar: https://www.berlinaieven
- ts.com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:Berlin
-URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
- eetup/events/315388195/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-24-unconference-open-weights-open-agents@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Unconference: Open Weights\, Open Agents
-DESCRIPTION:Get up-to-date information at: https://luma.com/haystack-priorl
- abs  Address: deepset GmbH Berlin\, Germany  Hosted by Bilge Yücel & 6 oth
- ers https://luma.com/haystack-priorlabs Full calendar: https://www.berlina
- ievents.com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:deepset GmbH\, Zinnowitzer Str. 1\, 10115 Berlin\, Germany
-URL:https://luma.com/haystack-priorlabs
-CATEGORIES:CONFERENCE
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-24-women-leading-innovation-in-health-ai@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Women leading innovation in Health & AI
-DESCRIPTION:Women Techmakers Berlin Join us at Doctolib for an inspiring ev
- ening of networking\, snacks\, drinks and great conversation about the fut
- ure of AI\, health and technology. We will bring together three women work
- ing across A https://www.meetup.com/wtm-berlin/events/316366833/ Full cale
- ndar: https://www.berlinaievents.com/?utm_source=ics&utm_medium=calendar&u
- tm_campaign=subscribe
-LOCATION:Berlin
-URL:https://www.meetup.com/wtm-berlin/events/316366833/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-09-25-sept-25-berlin-physical-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sept 25 - Berlin Physical AI\, ML\, and Computer Vision Meetup
@@ -117,7 +25,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-26-sept-26-physical-ai-workshop-and-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Sept 26 - Physical AI Workshop and Meetup
@@ -133,25 +41,8 @@ URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
 CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-30-sept-30-building-composable-vision-workflows-in-fiftyone@berlin-ai-events
-DTSTAMP:20260923T095900Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Sept 30 - Building Composable Vision Workflows in FiftyOne
-DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup This work
- shop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin f
- ramework to build custom computer vision applications. You’ll learn to ext
- end the F https://www.meetup.com/berlin-ai-machine-learning-and-computer-v
- ision-meetup/events/316064710/ Full calendar: https://www.berlinaievents.c
- om/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:Berlin
-URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
- eetup/events/316064710/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-02-oct-1-apac-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Oct 1 - APAC AI\, ML and Computer Vision Meetup
@@ -168,7 +59,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-07-ai-devcon-2026@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:ai devCon 2026
@@ -181,8 +72,25 @@ URL:https://www.nextappcon.com/ai-devcon
 CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-07-oct-7-building-composable-vision-workflows-in-fiftyone@berlin-ai-events
+DTSTAMP:20260925T101153Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Oct 7 - Building Composable Vision Workflows in FiftyOne
+DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup This work
+ shop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin f
+ ramework to build custom computer vision applications. You’ll learn to ext
+ end the F https://www.meetup.com/berlin-ai-machine-learning-and-computer-v
+ ision-meetup/events/316064710/ Full calendar: https://www.berlinaievents.c
+ om/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
+ eetup/events/316064710/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-08-oct-8-mcp-agents-and-skills-meetup-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Oct 8 - MCP\, Agents and Skills Meetup Meetup
@@ -199,7 +107,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-10-hard-negatives-meetup-engineers-debate-night-with-qdrant-neo4j@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Hard Negatives Meetup | Engineers Debate Night with Qdrant & Neo4j
@@ -213,7 +121,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-11-tech-europe-ai-hackathon-berlin-edition@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:{Tech: Europe} AI Hackathon — Berlin Edition
@@ -228,7 +136,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-12-ai-machine-learning-data-science-conference@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:AI\, Machine Learning & Data Science Conference
@@ -241,8 +149,24 @@ URL:https://www.createwith.com/cities/berlin
 CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-14-google-ai-live-labs-berlin@berlin-ai-events
+DTSTAMP:20260925T101153Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Google AI Live + Labs - Berlin
+DESCRIPTION:Berlin AI Developers Group **Important Note**: You must registe
+ r on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W
+ 2026101401) is required for admission. RSP on meetup is turned off.  Join 
+ Google Cl https://www.meetup.com/berlin-ai-tech-talk/events/316681169/ Ful
+ l calendar: https://www.berlinaievents.com/?utm_source=ics&utm_medium=cale
+ ndar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-tech-talk/events/316681169/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-14-oct-14-advances-in-ai-at-sdsu@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Oct 14 - Advances in AI at SDSU
@@ -259,7 +183,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-14-agentic-economy-forum@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Agentic Economy Forum
@@ -274,7 +198,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-the-berlin-ai-conference-2026@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:The Berlin AI Conference 2026
@@ -290,7 +214,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-oct-15-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Oct 15 - AI\, ML\, and Computer Vision Meetup
@@ -307,7 +231,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19-agentic-hackathon-from-research-to-commerce@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Agentic Hackathon: From Research to Commerce
@@ -322,7 +246,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-20-nvidia-gtc-berlin@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:NVIDIA GTC Berlin
@@ -337,7 +261,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-oct-22-advances-in-ai-at-virginia-tech@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Oct 22 - Advances in AI at Virginia Tech
@@ -354,7 +278,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-agentic-economy-forum@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Agentic Economy Forum
@@ -369,7 +293,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-berlin-robotics-ai-hackathon@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Berlin Robotics × AI Hackathon
@@ -383,7 +307,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-nov-11-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Nov 11 - AI\, ML and Computer Vision Meetup
@@ -400,7 +324,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-mlcon-berlin-2026@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:MLcon Berlin 2026
@@ -413,8 +337,25 @@ URL:https://mlconference.ai/berlin/
 CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-19-nov-19-visualizing-and-debugging-hugging-face-s-lerobot-data@berlin-ai-events
+DTSTAMP:20260925T101153Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data
+DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup This work
+ shop is a hands-on tour of what actually breaks when you load real LeRobot
+  datasets\, and how Voxel51's native LeRobot support in FiftyOne catches i
+ t.  **Date https://www.meetup.com/berlin-ai-machine-learning-and-computer-
+ vision-meetup/events/316617419/ Full calendar: https://www.berlinaievents.
+ com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
+ eetup/events/316617419/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-04-ai-coding-summit-berlin-edition@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:AI Coding Summit — Berlin Edition
@@ -428,7 +369,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-18-ai-agents-summit-2027@berlin-ai-events
-DTSTAMP:20260923T095900Z
+DTSTAMP:20260925T101153Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:AI Agents Summit 2027
