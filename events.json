@@ -1,35 +1,7 @@
 {
-  "generatedAt": "2026-09-25T10:11:53.627Z",
-  "count": 24,
+  "generatedAt": "2026-09-27T10:33:27.944Z",
+  "count": 22,
   "events": [
-    {
-      "date": "2026-09-25",
-      "dateLabel": "Sep 25",
-      "title": "Sept 25 - Berlin Physical AI, ML, and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our in-person meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Sep 25, 2026 5:30 PM - 8",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316271403/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
-    {
-      "date": "2026-09-26",
-      "dateLabel": "Sep 26",
-      "title": "Sept 26 - Physical AI Workshop and Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us at MotionLab.Berlin on September 26 for the Berlin Physical AI Workshop and Meetup, co-presented by Nebius and Voxel51. Seats are limited, **[Pre-registration",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316271166/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "September 2026"
-    },
     {
       "date": "2026-10-02",
       "dateLabel": "Oct 2",
