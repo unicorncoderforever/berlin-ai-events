@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T11:22:16.259Z",
-  "count": 24,
+  "generatedAt": "2026-10-01T11:37:09.761Z",
+  "count": 25,
   "events": [
     {
       "date": "2026-10-02",
@@ -12,6 +12,20 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our APAC time-zone friendly virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Oc",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316613722/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-05",
+      "dateLabel": "Oct 5",
+      "title": "[Virtual] Google Agents in Production for Enterprises - EP 3",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [Event Website](https://www.aicamp.ai/event/eventdetails/W2026100509)[ ](https://www.aicamp.ai/event/eventdetails/W2026031209)to receive joining link. (rsvp on me",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316779628/",
       "src": "meetup.com",
       "auto": true,
       "month": "October 2026"
@@ -134,7 +148,7 @@
       "type": "conference",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/agentic-economy-forum  Address: Check event page for more details.  Hosted by AI Agents Berlin & Merantix Momentum",
+      "desc": "Get up-to-date information at: https://luma.com/agentic-economy-forum  Address: Check event page for more details.  Hosted by AI Agents Berlin, Merantix Momentum & Merantix AI Campus",
       "url": "https://luma.com/agentic-economy-forum",
       "src": "luma.com",
       "auto": true,
@@ -251,6 +265,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "title": "Nov 5 - Visual AI Agriculture Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics at the intersection of agriculture and AI.  **Date, Time and Location**  Nov 05, 2026 9:00 A",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316768285/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
       "date": "2026-11-11",
       "dateLabel": "Nov 11",
       "title": "Nov 11 - AI, ML and Computer Vision Meetup",
@@ -302,20 +330,6 @@
       "desc": "Conference on how AI transforms software development — talks and hands-on workshops on AI-powered engineering practices.",
       "url": "https://aicodingsummit.com/berlin",
       "src": "aicodingsummit.com",
-      "month": "December 2026"
-    },
-    {
-      "date": "2026-12-10",
-      "dateLabel": "Dec 10",
-      "title": "Dec 10 - AI, ML and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Dec 10, 2026 9:00 AM - 11:",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316757872/",
-      "src": "meetup.com",
-      "auto": true,
       "month": "December 2026"
     },
     {
