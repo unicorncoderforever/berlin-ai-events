@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-10-01T11:37:09.761Z",
-  "count": 25,
+  "generatedAt": "2026-10-03T10:24:35.157Z",
+  "count": 26,
   "events": [
-    {
-      "date": "2026-10-02",
-      "dateLabel": "Oct 2",
-      "title": "Oct 1 - APAC AI, ML and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our APAC time-zone friendly virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Oc",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316613722/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "October 2026"
-    },
     {
       "date": "2026-10-05",
       "dateLabel": "Oct 5",
@@ -79,7 +65,7 @@
       "type": "meetup",
       "eco": true,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/sf-meetup-oct26  Address: Manny’s San Francisco, CA United States  Hosted by Qdrant",
+      "desc": "Get up-to-date information at: https://luma.com/sf-meetup-oct26  Address: Manny’s San Francisco, CA United States  Hosted by Qdrant, Nyah Macklin & Neo4j",
       "url": "https://luma.com/sf-meetup-oct26",
       "src": "luma.com",
       "auto": true,
@@ -120,7 +106,7 @@
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important Note**: You must register on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W2026101401) is required for admission. RSP on meetup is turned off.  Join Google Cl",
+      "desc": "Berlin AI Developers Group **Important Note**: You must register on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W2026101401) (or on [luma](https://luma.com/7n69d2jd)) is required for admission. RS",
       "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316681169/",
       "src": "meetup.com",
       "auto": true,
@@ -178,6 +164,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Place and Location**  Oct 15, 2026 9:00 AM - 11",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572390/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-16",
+      "dateLabel": "Oct 16",
+      "title": "NEBIUS Workshops on AI Inference, Physical AI & Post-Training ( part of Nebius Build Week)",
+      "venue": "DRIVE. Volkswagen Group Forum, Friedrichstraße 84, 10117 Berlin, Germany",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/nebius-academy-gtc26  Address: DRIVE. Volkswagen Group Forum Berlin, Germany  Hosted by Nebius Developer Community & 5 others",
+      "url": "https://luma.com/nebius-academy-gtc26",
+      "src": "luma.com",
       "auto": true,
       "month": "October 2026"
     },
@@ -330,6 +330,20 @@
       "desc": "Conference on how AI transforms software development — talks and hands-on workshops on AI-powered engineering practices.",
       "url": "https://aicodingsummit.com/berlin",
       "src": "aicodingsummit.com",
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-10",
+      "dateLabel": "Dec 10",
+      "title": "Dec 10 - AI, ML and Computer Vision Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Dec 10, 2026 9:00 AM - 11:",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316757872/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "December 2026"
     },
     {
