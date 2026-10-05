@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T10:24:35.157Z",
-  "count": 26,
+  "generatedAt": "2026-10-05T12:16:41.763Z",
+  "count": 27,
   "events": [
     {
       "date": "2026-10-05",
@@ -232,6 +232,20 @@
       "confirmed": true,
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup In this session, you’ll learn how to build production-ready AI agents that can reason over your data, automate complex tasks, and integrate seamlessly into your exist",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316758172/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-30",
+      "dateLabel": "Oct 30",
+      "title": "Roundtable Discussions and Networking - October",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Women Techmakers Berlin Let's get together for a BYOB roundtable networking session, and share our spooky career stories - with or without AI!  This is an open conversation about the current state of tech, in Berlin and",
+      "url": "https://www.meetup.com/wtm-berlin/events/316850458/",
       "src": "meetup.com",
       "auto": true,
       "month": "October 2026"
