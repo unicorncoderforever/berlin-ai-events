@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-10-05T12:16:41.763Z",
-  "count": 27,
+  "generatedAt": "2026-10-07T11:47:15.818Z",
+  "count": 26,
   "events": [
-    {
-      "date": "2026-10-05",
-      "dateLabel": "Oct 5",
-      "title": "[Virtual] Google Agents in Production for Enterprises - EP 3",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [Event Website](https://www.aicamp.ai/event/eventdetails/W2026100509)[ ](https://www.aicamp.ai/event/eventdetails/W2026031209)to receive joining link. (rsvp on me",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/316779628/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "October 2026"
-    },
     {
       "date": "2026-10-07",
       "dateLabel": "Oct 7–9",
