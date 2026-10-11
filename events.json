@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T11:54:01.365Z",
-  "count": 25,
+  "generatedAt": "2026-10-11T11:24:18.436Z",
+  "count": 26,
   "events": [
     {
       "date": "2026-10-10",
@@ -262,6 +262,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics at the intersection of agriculture and AI.  **Date, Time and Location**  Nov 05, 2026 9:00 A",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316768285/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "title": "Hard Negatives Meetup | Engineers Debate Night With Qdrant",
+      "venue": "87 Lafayette St, New York, NY 10013, USA",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant",
+      "url": "https://luma.com/nyc-meetup-november",
+      "src": "luma.com",
       "auto": true,
       "month": "November 2026"
     },
