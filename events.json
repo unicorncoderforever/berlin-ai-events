@@ -1,35 +1,7 @@
 {
-  "generatedAt": "2026-10-11T11:24:18.436Z",
-  "count": 26,
+  "generatedAt": "2026-10-13T12:42:43.958Z",
+  "count": 25,
   "events": [
-    {
-      "date": "2026-10-10",
-      "dateLabel": "Oct 10",
-      "title": "Hard Negatives Meetup | Engineers Debate Night with Qdrant & Neo4j",
-      "venue": "Manny’s, 3092 16th St, San Francisco, CA 94103, USA",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/sf-meetup-oct26  Address: Manny’s San Francisco, CA United States  Hosted by Qdrant, Nyah Macklin & Neo4j",
-      "url": "https://luma.com/sf-meetup-oct26",
-      "src": "luma.com",
-      "auto": true,
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-11",
-      "dateLabel": "Oct 11–12",
-      "title": "{Tech: Europe} AI Hackathon — Berlin Edition",
-      "venue": "Berlin",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": false,
-      "desc": "Full-weekend hackathon with sponsor credits from OpenAI, ElevenLabs, Weaviate, Runpod, Dust and others. ~90 participants, finalist pitches Sunday.",
-      "warn": "Organizer announced an Oct 11–12 edition — confirm the date and registration on their Luma before planning.",
-      "url": "https://luma.com/berlin-hackathon",
-      "src": "luma.com/berlin-hackathon",
-      "month": "October 2026"
-    },
     {
       "date": "2026-10-12",
       "dateLabel": "Oct 12–14",
@@ -120,7 +92,7 @@
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/nebius-academy-gtc26  Address: DRIVE. Volkswagen Group Forum Berlin, Germany  Hosted by Nebius Developer Community & 5 others",
+      "desc": "Get up-to-date information at: https://luma.com/nebius-academy-gtc26  Address: DRIVE. Volkswagen Group Forum Berlin, Germany  Hosted by Nebius Developer Community & 6 others",
       "url": "https://luma.com/nebius-academy-gtc26",
       "src": "luma.com",
       "auto": true,
@@ -317,6 +289,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup This workshop is a hands-on tour of what actually breaks when you load real LeRobot datasets, and how Voxel51's native LeRobot support in FiftyOne catches it.  **Date",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316617419/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "title": "Search Week After Party: Pub Quiz by Qdrant",
+      "venue": "Core Bar, Aldermary House, 10-15 Queen St, London EC4N 1TX, UK",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/londonsearchweek_2026  Address: Core Bar London, United Kingdom  Hosted by Qdrant",
+      "url": "https://luma.com/londonsearchweek_2026",
+      "src": "luma.com",
       "auto": true,
       "month": "November 2026"
     },
