@@ -1,62 +1,7 @@
 {
-  "generatedAt": "2026-10-15T09:54:12.000Z",
-  "count": 22,
+  "generatedAt": "2026-10-17T09:20:47.285Z",
+  "count": 19,
   "events": [
-    {
-      "date": "2026-10-14",
-      "dateLabel": "Oct 14",
-      "title": "Agentic Economy Forum",
-      "venue": "https://luma.com/event/evt-OWv4A6B57o06vY0",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/agentic-economy-forum  Address: Check event page for more details.  Hosted by AI Agents Berlin & 3 others",
-      "url": "https://luma.com/agentic-economy-forum",
-      "src": "luma.com",
-      "auto": true,
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "title": "The Berlin AI Conference 2026",
-      "venue": "SPACE SHACK Coworking",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Evening conference gathering 150 Berlin business, product, and tech leaders — panel plus networking; follows sold-out 2024/2025 editions.",
-      "url": "https://www.eventbrite.ie/e/the-berlin-ai-conference-2026-tickets-1983880925252",
-      "src": "eventbrite.ie",
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "title": "Oct 15 - AI, ML, and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Place and Location**  Oct 15, 2026 9:00 AM - 11",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572390/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "October 2026"
-    },
-    {
-      "date": "2026-10-16",
-      "dateLabel": "Oct 16",
-      "title": "NEBIUS Workshops on AI Inference, Physical AI & Post-Training ( part of Nebius Build Week)",
-      "venue": "DRIVE. Volkswagen Group Forum, Friedrichstraße 84, 10117 Berlin, Germany",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/nebius-academy-gtc26  Address: DRIVE. Volkswagen Group Forum Berlin, Germany  Hosted by Nebius Developer Community & 7 others",
-      "url": "https://luma.com/nebius-academy-gtc26",
-      "src": "luma.com",
-      "auto": true,
-      "month": "October 2026"
-    },
     {
       "date": "2026-10-20",
       "dateLabel": "Oct 20–22",
@@ -68,6 +13,20 @@
       "desc": "NVIDIA's European GTC — Jensen Huang keynote Oct 21, then sessions and hands-on labs across the full AI stack: infra, open models, agentic and physical AI.",
       "url": "https://www.nvidia.com/en-eu/gtc/",
       "src": "nvidia.com",
+      "month": "October 2026"
+    },
+    {
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "title": "PyData Berlin 2026 October Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "PyData Berlin Welcome to the PyData Berlin October meetup! We would like to welcome you all starting from 18:00. There will be food and drinks. The talks begin around 18.30 and the doors will close at 18.30. **Make sure",
+      "url": "https://www.meetup.com/pydata-berlin/events/316973164/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "October 2026"
     },
     {
