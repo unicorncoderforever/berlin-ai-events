@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:20:47.285Z",
+  "generatedAt": "2026-10-19T10:46:04.871Z",
   "count": 19,
   "events": [
     {
@@ -149,7 +149,7 @@
       "type": "meetup",
       "eco": true,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant",
+      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant & Agora",
       "url": "https://luma.com/nyc-meetup-november",
       "src": "luma.com",
       "auto": true,
