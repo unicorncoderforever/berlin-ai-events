@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T10:46:04.871Z",
-  "count": 19,
+  "generatedAt": "2026-10-21T10:07:46.736Z",
+  "count": 20,
   "events": [
     {
       "date": "2026-10-20",
@@ -37,7 +37,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/hep-hack-night  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 4 others",
+      "desc": "Get up-to-date information at: https://luma.com/hep-hack-night  Address: deepset GmbH Berlin, Germany  Hosted by Bilge Yücel & 5 others",
       "url": "https://luma.com/hep-hack-night",
       "src": "luma.com",
       "auto": true,
@@ -114,6 +114,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "title": "BLISS AI Speaker Series: Human-Like Artificial Intelligence - Badr Alkhamissi",
+      "venue": "Technische Universität Berlin, Institut für Chemie, Chemiegebäude, Str. des 17. Juni 115, 10623 Berlin-Bezirk Charlottenburg-Wilmersdorf, Germany",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/j2k7yyd4  Address: Technische Universität Berlin, Institut für Chemie Berlin, Germany  Hosted by BLISS Berlin",
+      "url": "https://luma.com/j2k7yyd4",
+      "src": "luma.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
       "date": "2026-11-05",
       "dateLabel": "Autumn (TBA)",
       "title": "Berlin Robotics × AI Hackathon",
@@ -144,12 +158,12 @@
     {
       "date": "2026-11-10",
       "dateLabel": "Nov 10",
-      "title": "Hard Negatives Meetup | Engineers Debate Night With Qdrant",
+      "title": "Hard Negatives Meetup | Engineers Debate Night With Qdrant and Agora",
       "venue": "87 Lafayette St, New York, NY 10013, USA",
       "type": "meetup",
       "eco": true,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant & Agora",
+      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant, Agora & Hermes",
       "url": "https://luma.com/nyc-meetup-november",
       "src": "luma.com",
       "auto": true,
@@ -218,7 +232,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: The Delta Campus Berlin, Germany  Hosted by AI Agents Berlin, 0xMihej & Tavily Events",
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: The Delta Campus Berlin, Germany  Hosted by AI Agents Berlin & 3 others",
       "url": "https://luma.com/research-to-commerce",
       "src": "luma.com",
       "auto": true,
