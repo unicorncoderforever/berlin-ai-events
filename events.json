@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T10:33:35.268Z",
-  "count": 19,
+  "generatedAt": "2026-10-29T11:30:44.611Z",
+  "count": 21,
   "events": [
     {
       "date": "2026-10-29",
@@ -108,7 +108,7 @@
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin & ClawCamp Community",
+      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin, ClawCamp Community & Jaz White",
       "url": "https://luma.com/clawcampberlin2",
       "src": "luma.com",
       "auto": true,
@@ -226,6 +226,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-11-28",
+      "dateLabel": "Nov 28",
+      "title": "BIG BERLIN HACK - 350+ Builders from all over Europe",
+      "venue": "https://luma.com/event/evt-PYaG9FME34om1Gr",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/bbh  Address: Check event page for more details.  Hosted by {Tech: Europe} & 3 others",
+      "url": "https://luma.com/bbh",
+      "src": "luma.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
       "date": "2026-12-04",
       "dateLabel": "Dec 4 & 7",
       "title": "AI Coding Summit — Berlin Edition",
@@ -236,6 +250,20 @@
       "desc": "Conference on how AI transforms software development — talks and hands-on workshops on AI-powered engineering practices.",
       "url": "https://aicodingsummit.com/berlin",
       "src": "aicodingsummit.com",
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-09",
+      "dateLabel": "Dec 9",
+      "title": "PyData Global 2026",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "PyData Berlin PyData Global 2026 is a 2-day virtual event for the international community of data scientists, data engineers, and developers of data analysis tools to share ideas and learn from each other. During the con",
+      "url": "https://www.meetup.com/pydata-berlin/events/317164729/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "December 2026"
     },
     {
