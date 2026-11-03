@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-01T11:50:20.825Z",
-  "count": 18,
+  "generatedAt": "2026-11-03T12:47:35.266Z",
+  "count": 17,
   "events": [
-    {
-      "date": "2026-11-01",
-      "dateLabel": "H2 2026 (TBA)",
-      "title": "Agentic Economy Forum",
-      "venue": "Berlin",
-      "type": "conference",
-      "eco": false,
-      "confirmed": false,
-      "desc": "AI Agents Berlin's standalone forum anchoring their H2 season — agentic AI meets web3 across Personalized AI and DeFAI tracks. Their AI Agents Summit drew 400+ in person.",
-      "warn": "Announced for H2 2026, exact date and venue not yet published — check their site.",
-      "url": "https://aiagentsberlin.xyz/",
-      "src": "aiagentsberlin.xyz",
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-03",
       "dateLabel": "Nov 3",
@@ -66,7 +52,7 @@
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin, ClawCamp Community & Jaz White",
+      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin & Jaz White",
       "url": "https://luma.com/clawcampberlin2",
       "src": "luma.com",
       "auto": true,

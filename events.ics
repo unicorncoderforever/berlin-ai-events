@@ -7,23 +7,8 @@ X-WR-CALNAME:Berlin AI Events
 X-WR-CALDESC:Conferences, meetups, and hackathons for AI builders in Berlin.
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:2026-11-01-agentic-economy-forum@berlin-ai-events
-DTSTAMP:20261101T115020Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Agentic Economy Forum
-DESCRIPTION:AI Agents Berlin's standalone forum anchoring their H2 season —
-  agentic AI meets web3 across Personalized AI and DeFAI tracks. Their AI A
- gents Summit drew 400+ in person. https://aiagentsberlin.xyz/ Full calenda
- r: https://www.berlinaievents.com/?utm_source=ics&utm_medium=calendar&utm_
- campaign=subscribe
-LOCATION:Berlin
-URL:https://aiagentsberlin.xyz/
-CATEGORIES:CONFERENCE
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-03-bliss-ai-speaker-series-human-like-artificial-intelligence-badr-alkhamissi@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:BLISS AI Speaker Series: Human-Like Artificial Intelligence - Badr 
@@ -41,7 +26,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-berlin-robotics-ai-hackathon@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Berlin Robotics × AI Hackathon
@@ -55,7 +40,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-nov-5-visual-ai-agriculture-meetup@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Nov 5 - Visual AI Agriculture Meetup
@@ -72,22 +57,22 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-clawcamp-berlin-edition-2-advancing-ai-proficiency@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:ClawCamp Berlin – Edition #2: Advancing AI Proficiency
 DESCRIPTION:Get up-to-date information at: https://luma.com/clawcampberlin2
-   Address: Check event page for more details.  Hosted by AI Agents Berlin\
- , ClawCamp Community & Jaz White https://luma.com/clawcampberlin2 Full cal
- endar: https://www.berlinaievents.com/?utm_source=ics&utm_medium=calendar&
- utm_campaign=subscribe
+   Address: Check event page for more details.  Hosted by AI Agents Berlin 
+ & Jaz White https://luma.com/clawcampberlin2 Full calendar: https://www.be
+ rlinaievents.com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscrib
+ e
 LOCATION:https://luma.com/event/evt-78HvscGqX2ploL5
 URL:https://luma.com/clawcampberlin2
 CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09-nov-9-agentic-labeling-for-specialized-visual-data@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Nov 9 - Agentic Labeling for Specialized Visual Data
@@ -104,7 +89,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-hard-negatives-meetup-engineers-debate-night-with-qdrant-and-agora@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Hard Negatives Meetup | Engineers Debate Night With Qdrant and Agor
@@ -120,7 +105,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-google-ai-deep-dive-ep-5-discriminative-jev-diffusiongemma-models@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Google AI Deep Dive (Ep 5) - Discriminative (Jev/DiffusionGemma) mo
@@ -137,7 +122,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-nov-11-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Nov 11 - AI\, ML and Computer Vision Meetup
@@ -154,7 +139,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-mlcon-berlin-2026@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:MLcon Berlin 2026
@@ -168,7 +153,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-nov-19-visualizing-and-debugging-hugging-face-s-lerobot-data@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data
@@ -185,7 +170,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-search-week-after-party-pub-quiz-by-qdrant@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Search Week After Party: Pub Quiz by Qdrant
@@ -199,7 +184,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-agentic-hackathon-from-research-to-commerce@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Agentic Hackathon: From Research to Commerce
@@ -214,7 +199,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-big-berlin-hack-350-builders-from-all-over-europe@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:BIG BERLIN HACK - 350+ Builders from all over Europe
@@ -228,7 +213,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-ai-coding-summit-berlin-edition@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:AI Coding Summit — Berlin Edition
@@ -242,7 +227,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-pydata-global-2026@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:PyData Global 2026
@@ -258,7 +243,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-10-dec-10-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Dec 10 - AI\, ML and Computer Vision Meetup
@@ -275,7 +260,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-11-ai-agents-summit-2027@berlin-ai-events
-DTSTAMP:20261101T115020Z
+DTSTAMP:20261103T124735Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:AI Agents Summit 2027
