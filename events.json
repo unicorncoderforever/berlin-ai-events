@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-03T12:47:35.266Z",
-  "count": 17,
+  "generatedAt": "2026-11-05T13:11:46.423Z",
+  "count": 16,
   "events": [
-    {
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "title": "BLISS AI Speaker Series: Human-Like Artificial Intelligence - Badr Alkhamissi",
-      "venue": "Technische Universität Berlin, Institut für Chemie, Chemiegebäude, Str. des 17. Juni 115, 10623 Berlin-Bezirk Charlottenburg-Wilmersdorf, Germany",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/j2k7yyd4  Address: Technische Universität Berlin, Institut für Chemie Berlin, Germany  Hosted by BLISS Berlin",
-      "url": "https://luma.com/j2k7yyd4",
-      "src": "luma.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-05",
       "dateLabel": "Autumn (TBA)",
@@ -52,7 +38,7 @@
       "type": "meetup",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin & Jaz White",
+      "desc": "Get up-to-date information at: https://luma.com/clawcampberlin2  Address: Check event page for more details.  Hosted by AI Agents Berlin & Nebius Developer Community",
       "url": "https://luma.com/clawcampberlin2",
       "src": "luma.com",
       "auto": true,
