@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-09T13:53:42.376Z",
-  "count": 14,
+  "generatedAt": "2026-11-11T12:43:05.272Z",
+  "count": 15,
   "events": [
-    {
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "title": "Nov 9 - Agentic Labeling for Specialized Visual Data",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup **Date, Time and Location**  Nov 09, 2026 9:00 AM - 10:00 AM PST Online. **[Register for the Zoom!](https://voxel51.com/events/when-prompting-beats-training-agentic-l",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/317079252/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-10",
       "dateLabel": "Nov 10",
@@ -55,6 +41,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Nov 11, 2026 9:00 AM - 11:",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572590/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Nov 14",
+      "title": "DevFest Berlin 2026",
+      "venue": "https://2026.devfest-berlin.de/",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Find more information on https://luma.com/gdg-berlin",
+      "url": "https://luma.com/gdg-berlin",
+      "src": "luma.com",
       "auto": true,
       "month": "November 2026"
     },
@@ -114,6 +114,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "title": "PyData Berlin 2026 November Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "PyData Berlin Welcome to the PyData Berlin November meetup!  **Please register on Luma:** [https://luma.com/6q8mo2sp](https://luma.com/6q8mo2sp) We’re using Luma as the sole registration platform for this event. Please r",
+      "url": "https://www.meetup.com/pydata-berlin/events/317368516/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
       "date": "2026-11-27",
       "dateLabel": "Nov 27",
       "title": "Agentic Hackathon: From Research to Commerce",
@@ -121,7 +135,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: The Delta Campus Berlin, Germany  Hosted by AI Agents Berlin & 3 others",
+      "desc": "Get up-to-date information at: https://luma.com/research-to-commerce  Address: The Delta Campus Berlin, Germany  Hosted by AI Agents Berlin, Tavily Events & Nebius Developer Community",
       "url": "https://luma.com/research-to-commerce",
       "src": "luma.com",
       "auto": true,
