@@ -1,49 +1,7 @@
 {
-  "generatedAt": "2026-11-11T12:43:05.272Z",
-  "count": 15,
+  "generatedAt": "2026-11-13T13:06:23.748Z",
+  "count": 13,
   "events": [
-    {
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "title": "Hard Negatives Meetup | Engineers Debate Night With Qdrant and Agora",
-      "venue": "87 Lafayette St, New York, NY 10013, USA",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/nyc-meetup-november  Address: 87 Lafayette St New York, NY United States  Hosted by Qdrant, Agora & Hermes",
-      "url": "https://luma.com/nyc-meetup-november",
-      "src": "luma.com",
-      "auto": true,
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "title": "Google AI Deep Dive (Ep 5) - Discriminative (Jev/DiffusionGemma) models",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026111109) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317104062/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "title": "Nov 11 - AI, ML and Computer Vision Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Time, Date and Location**  Nov 11, 2026 9:00 AM - 11:",
-      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316572590/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-14",
       "dateLabel": "Nov 14",
@@ -195,6 +153,20 @@
       "src": "meetup.com",
       "auto": true,
       "month": "December 2026"
+    },
+    {
+      "date": "2027-01-14",
+      "dateLabel": "Jan 14",
+      "title": "Jan 14 - MCP, Agents and Skills Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Jan 14, 2027 9:00 AM - 11:",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/317403955/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "January 2027"
     },
     {
       "date": "2027-03-11",
