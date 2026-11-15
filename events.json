@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T13:06:23.748Z",
-  "count": 13,
+  "generatedAt": "2026-11-15T12:44:00.888Z",
+  "count": 18,
   "events": [
     {
       "date": "2026-11-14",
@@ -27,6 +27,20 @@
       "desc": "Week-long generative-AI and ML engineering conference — workshops, keynotes, and an expo; also attendable online.",
       "url": "https://mlconference.ai/berlin/",
       "src": "mlconference.ai",
+      "month": "November 2026"
+    },
+    {
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "title": "Executive Dialogue: Agentic AI in Banking and Financial Services - Berlin",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: You must register on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W2026111704) is required for admission. RSP on meetup is turned off.  Join senior financi",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317413690/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "November 2026"
     },
     {
@@ -114,6 +128,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-12-02",
+      "dateLabel": "Dec 2",
+      "title": "Accel AI Innovate: Berlin - Hackathon",
+      "venue": "https://luma.com/event/evt-xinYn4Htoqw7gZA",
+      "type": "hackathon",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/builde-8rnz  Address: Check event page for more details.  Hosted by BuilderBase & NVIDIA",
+      "url": "https://luma.com/builde-8rnz",
+      "src": "luma.com",
+      "auto": true,
+      "month": "December 2026"
+    },
+    {
       "date": "2026-12-04",
       "dateLabel": "Dec 4 & 7",
       "title": "AI Coding Summit — Berlin Edition",
@@ -124,6 +152,48 @@
       "desc": "Conference on how AI transforms software development — talks and hands-on workshops on AI-powered engineering practices.",
       "url": "https://aicodingsummit.com/berlin",
       "src": "aicodingsummit.com",
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-04",
+      "dateLabel": "Dec 4",
+      "title": "Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317411558/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-08",
+      "dateLabel": "Dec 8",
+      "title": "Dec 8 - How to Let Long-tail Guide Your 3D Annotation Workshop",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us on Dec 8 for the “How to Let Long-tail Guide Your 3D Annotation” workshop with [Eric Hofesmann](https://www.linkedin.com/in/eric-hofesmann/).  **Date, Time an",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/317415263/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-09",
+      "dateLabel": "Dec 9",
+      "title": "AI Webinar (Diagrid and AWS) - Durable Execution for Agents",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything).  This is virtual ev",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317414108/",
+      "src": "meetup.com",
+      "auto": true,
       "month": "December 2026"
     },
     {
