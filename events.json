@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-15T12:44:00.888Z",
+  "generatedAt": "2026-11-17T14:23:25.274Z",
   "count": 18,
   "events": [
-    {
-      "date": "2026-11-14",
-      "dateLabel": "Nov 14",
-      "title": "DevFest Berlin 2026",
-      "venue": "https://2026.devfest-berlin.de/",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Find more information on https://luma.com/gdg-berlin",
-      "url": "https://luma.com/gdg-berlin",
-      "src": "luma.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-16",
       "dateLabel": "Nov 16–20",
@@ -86,6 +72,20 @@
       "month": "November 2026"
     },
     {
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "title": "WTM Berlin x Deutsche Bank Berlin Tech Centre: When AI Joins Your Team",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Women Techmakers Berlin Join us at the Deutsche Bank Berlin Tech Centre for an evening on two changes at work: how to make your work visible so it leads to your next role, and how teams change when AI agents join them. A",
+      "url": "https://www.meetup.com/wtm-berlin/events/317467703/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "November 2026"
+    },
+    {
       "date": "2026-11-26",
       "dateLabel": "Nov 26",
       "title": "PyData Berlin 2026 November Meetup",
@@ -116,7 +116,7 @@
     {
       "date": "2026-11-28",
       "dateLabel": "Nov 28",
-      "title": "BIG BERLIN HACK - 350+ Builders from all over Europe",
+      "title": "BIG BERLIN HACK - 350+ Builders from all over Europe -€10k Cash Main Prize",
       "venue": "https://luma.com/event/evt-PYaG9FME34om1Gr",
       "type": "hackathon",
       "eco": false,
