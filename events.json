@@ -1,48 +1,7 @@
 {
-  "generatedAt": "2026-11-17T14:23:25.274Z",
-  "count": 18,
+  "generatedAt": "2026-11-19T14:25:31.380Z",
+  "count": 16,
   "events": [
-    {
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16–20",
-      "title": "MLcon Berlin 2026",
-      "venue": "Maritim ProArte Hotel (expo Nov 18–19)",
-      "type": "conference",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Week-long generative-AI and ML engineering conference — workshops, keynotes, and an expo; also attendable online.",
-      "url": "https://mlconference.ai/berlin/",
-      "src": "mlconference.ai",
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-17",
-      "dateLabel": "Nov 17",
-      "title": "Executive Dialogue: Agentic AI in Banking and Financial Services - Berlin",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Berlin AI Developers Group **Important**: You must register on the [AICamp event website](https://www.aicamp.ai/event/eventdetails/W2026111704) is required for admission. RSP on meetup is turned off.  Join senior financi",
-      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317413690/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-18",
-      "dateLabel": "Nov 18",
-      "title": "Global AI Nights Berlin: AI Agents That Think, Remember & Act",
-      "venue": "The Delta, Donaustraße 44, 12043 Berlin, Germany",
-      "type": "hackathon",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/btnr49r2  Address: The Delta The Atrium Berlin, Germany  Hosted by Zaid Zaim, Sahar Mor (Bond AI) & Neo4j",
-      "url": "https://luma.com/btnr49r2",
-      "src": "luma.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-19",
       "dateLabel": "Nov 19",
@@ -126,6 +85,20 @@
       "src": "luma.com",
       "auto": true,
       "month": "November 2026"
+    },
+    {
+      "date": "2026-12-01",
+      "dateLabel": "Dec 1",
+      "title": "[Virtual] Google Agents in Production for Enterprises with Oracle",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "Berlin AI Developers Group **Important:** Register on the[ ](https://www.aicamp.ai/event/eventdetails/W2026101209)[Event Website](https://www.aicamp.ai/event/eventdetails/W2026120109) to receive the joining link. (RSVP o",
+      "url": "https://www.meetup.com/berlin-ai-tech-talk/events/317494974/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "December 2026"
     },
     {
       "date": "2026-12-02",
