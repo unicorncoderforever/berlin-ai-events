@@ -7,40 +7,23 @@ X-WR-CALNAME:Berlin AI Events
 X-WR-CALDESC:Conferences, meetups, and hackathons for AI builders in Berlin.
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:2026-11-19-nov-19-visualizing-and-debugging-hugging-face-s-lerobot-data@berlin-ai-events
-DTSTAMP:20261119T142531Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data
-DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup This work
- shop is a hands-on tour of what actually breaks when you load real LeRobot
-  datasets\, and how Voxel51's native LeRobot support in FiftyOne catches i
- t.  **Date https://www.meetup.com/berlin-ai-machine-learning-and-computer-
- vision-meetup/events/316617419/ Full calendar: https://www.berlinaievents.
- com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
-LOCATION:Berlin
-URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
- eetup/events/316617419/
-CATEGORIES:MEETUP
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-24-search-week-after-party-pub-quiz-by-qdrant-with-clickhouse@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Search Week After Party: Pub Quiz by Qdrant with Clickhouse
 DESCRIPTION:Get up-to-date information at: https://luma.com/londonsearchwee
- k_2026  Address: Core Bar London\, United Kingdom  Hosted by Qdrant & Clic
- kHouse Events https://luma.com/londonsearchweek_2026 Full calendar: https:
- //www.berlinaievents.com/?utm_source=ics&utm_medium=calendar&utm_campaign=
- subscribe
+ k_2026  Address: Core Bar London\, United Kingdom  Hosted by Qdrant\, Clic
+ kHouse Events & Dylan Couzon https://luma.com/londonsearchweek_2026 Full c
+ alendar: https://www.berlinaievents.com/?utm_source=ics&utm_medium=calenda
+ r&utm_campaign=subscribe
 LOCATION:Core Bar\, Aldermary House\, 10-15 Queen St\, London EC4N 1TX\, UK
 URL:https://luma.com/londonsearchweek_2026
 CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-wtm-berlin-x-deutsche-bank-berlin-tech-centre-when-ai-joins-your-team@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:WTM Berlin x Deutsche Bank Berlin Tech Centre: When AI Joins Your T
@@ -57,7 +40,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26-pydata-berlin-2026-november-meetup@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:PyData Berlin 2026 November Meetup
@@ -73,7 +56,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-agentic-hackathon-from-research-to-commerce@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Agentic Hackathon: From Research to Commerce
@@ -88,7 +71,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-big-berlin-hack-350-builders-from-all-over-europe-10k-cash-main-prize@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:BIG BERLIN HACK - 350+ Builders from all over Europe -€10k Cash Mai
@@ -103,7 +86,7 @@ CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01-virtual-google-agents-in-production-for-enterprises-with-oracle@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:[Virtual] Google Agents in Production for Enterprises with Oracle
@@ -119,21 +102,22 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-02-accel-ai-innovate-berlin-hackathon@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Accel AI Innovate: Berlin - Hackathon
 DESCRIPTION:Get up-to-date information at: https://luma.com/builde-8rnz  Ad
- dress: Check event page for more details.  Hosted by BuilderBase & NVIDIA 
- https://luma.com/builde-8rnz Full calendar: https://www.berlinaievents.com
- /?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+ dress: Check event page for more details.  Hosted by BuilderBase\, NVIDIA 
+ & Yoan Di Cosmo https://luma.com/builde-8rnz Full calendar: https://www.be
+ rlinaievents.com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscrib
+ e
 LOCATION:https://luma.com/event/evt-xinYn4Htoqw7gZA
 URL:https://luma.com/builde-8rnz
 CATEGORIES:HACKATHON
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-ai-coding-summit-berlin-edition@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:AI Coding Summit — Berlin Edition
@@ -147,7 +131,7 @@ CATEGORIES:CONFERENCE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-google-ai-deep-dive-ep-6-platform-engineering-on-gke-using-gemini@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemi
@@ -164,7 +148,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08-dec-8-how-to-let-long-tail-guide-your-3d-annotation-workshop@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Dec 8 - How to Let Long-tail Guide Your 3D Annotation Workshop
@@ -181,7 +165,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-ai-webinar-diagrid-and-aws-durable-execution-for-agents@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:AI Webinar (Diagrid and AWS) - Durable Execution for Agents
@@ -197,7 +181,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-pydata-global-2026@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:PyData Global 2026
@@ -213,7 +197,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-10-dec-10-ai-ml-and-computer-vision-meetup@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Dec 10 - AI\, ML and Computer Vision Meetup
@@ -230,7 +214,7 @@ CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-14-jan-14-mcp-agents-and-skills-meetup@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Jan 14 - MCP\, Agents and Skills Meetup
@@ -246,8 +230,60 @@ URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
 CATEGORIES:MEETUP
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-01-21-jan-21-ai-ml-and-computer-vision-meetup@berlin-ai-events
+DTSTAMP:20261121T132758Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Jan 21 - AI\, ML and Computer Vision Meetup
+DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup Join our 
+ virtual meetup to hear talks from experts on cutting-edge topics across AI
+ \, ML\, and computer vision.  **Date\, Time and Location**  Jan 21\, 2027 
+ 9:00 AM - 11: https://www.meetup.com/berlin-ai-machine-learning-and-comput
+ er-vision-meetup/events/317517551/ Full calendar: https://www.berlinaieven
+ ts.com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
+ eetup/events/317517551/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-jan-27-physical-ai-ml-and-computer-vision-meetup-purpose-built-robots@berlin-ai-events
+DTSTAMP:20261121T132758Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Jan 27 - Physical AI\, ML and Computer Vision Meetup: Purpose-Built
+  Robots
+DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup Join us f
+ or the Physical AI\, ML and Computer Vision Meetup series focused on robot
+ ics use cases. In this session we will focus on purpose-built robots.  **D
+ ate\, Time https://www.meetup.com/berlin-ai-machine-learning-and-computer-
+ vision-meetup/events/317517790/ Full calendar: https://www.berlinaievents.
+ com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
+ eetup/events/317517790/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-feb-10-physical-ai-meetup-robot-brains-and-models@berlin-ai-events
+DTSTAMP:20261121T132758Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Feb 10 - Physical AI Meetup: Robot Brains and Models
+DESCRIPTION:Berlin AI Machine Learning and Computer Vision Meetup Join us f
+ or the Physical AI\, ML and Computer Vision Meetup series focused on robot
+ ics use cases. In this session we will focus on robot brains and models.  
+ **Date\, Ti https://www.meetup.com/berlin-ai-machine-learning-and-computer
+ -vision-meetup/events/317518809/ Full calendar: https://www.berlinaievents
+ .com/?utm_source=ics&utm_medium=calendar&utm_campaign=subscribe
+LOCATION:Berlin
+URL:https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-m
+ eetup/events/317518809/
+CATEGORIES:MEETUP
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-03-11-ai-agents-summit-2027@berlin-ai-events
-DTSTAMP:20261119T142531Z
+DTSTAMP:20261121T132758Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:AI Agents Summit 2027
