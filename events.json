@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T13:27:58.414Z",
-  "count": 18,
+  "generatedAt": "2026-11-23T15:58:09.496Z",
+  "count": 19,
   "events": [
     {
       "date": "2026-11-24",
@@ -180,6 +180,20 @@
       "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.  **Date, Time and Location**  Dec 10, 2026 9:00 AM - 11:",
       "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/316757872/",
       "src": "meetup.com",
+      "auto": true,
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-15",
+      "dateLabel": "Dec 15",
+      "title": "Product Search for Agentic Shoppers | Vector Retrieval with Qdrant and UCP",
+      "venue": "https://luma.com/event/evt-7Hy9ANVYTUgkYPW",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Get up-to-date information at: https://luma.com/agentic-product-search  Hosted by Qdrant",
+      "url": "https://luma.com/agentic-product-search",
+      "src": "luma.com",
       "auto": true,
       "month": "December 2026"
     },
