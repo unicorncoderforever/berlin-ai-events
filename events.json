@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T15:58:09.496Z",
-  "count": 19,
+  "generatedAt": "2026-11-25T15:35:53.663Z",
+  "count": 21,
   "events": [
     {
       "date": "2026-11-24",
@@ -94,7 +94,7 @@
       "type": "hackathon",
       "eco": false,
       "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/builde-8rnz  Address: Check event page for more details.  Hosted by BuilderBase, NVIDIA & Yoan Di Cosmo",
+      "desc": "Get up-to-date information at: https://luma.com/builde-8rnz  Address: Check event page for more details.  Hosted by BuilderBase & 4 others",
       "url": "https://luma.com/builde-8rnz",
       "src": "luma.com",
       "auto": true,
@@ -252,6 +252,34 @@
       "src": "meetup.com",
       "auto": true,
       "month": "February 2027"
+    },
+    {
+      "date": "2027-02-25",
+      "dateLabel": "Feb 25",
+      "title": "Feb 25 - MCP, Agents and Skills Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join our virtual meetup to hear talks from experts on cutting-edge topics across MCP, agents and skills.  **Date, Time and Location**  Feb 25, 2027 9:00 AM - 11:00 AM",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/317571145/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "February 2027"
+    },
+    {
+      "date": "2027-03-10",
+      "dateLabel": "Mar 10",
+      "title": "March 10 - Physical AI Meetup: Robotic Data Quality and Evaluation",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": true,
+      "confirmed": true,
+      "desc": "Berlin AI Machine Learning and Computer Vision Meetup Join us for the Physical AI, ML and Computer Vision Meetup series focused on robotics use cases. In this session we will focus on robotic data quality and evaluation.",
+      "url": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/events/317554601/",
+      "src": "meetup.com",
+      "auto": true,
+      "month": "March 2027"
     },
     {
       "date": "2027-03-11",
