@@ -1,49 +1,7 @@
 {
-  "generatedAt": "2026-11-25T15:35:53.663Z",
-  "count": 21,
+  "generatedAt": "2026-11-27T15:04:43.588Z",
+  "count": 19,
   "events": [
-    {
-      "date": "2026-11-24",
-      "dateLabel": "Nov 24",
-      "title": "Search Week After Party: Pub Quiz by Qdrant with Clickhouse",
-      "venue": "Core Bar, Aldermary House, 10-15 Queen St, London EC4N 1TX, UK",
-      "type": "meetup",
-      "eco": true,
-      "confirmed": true,
-      "desc": "Get up-to-date information at: https://luma.com/londonsearchweek_2026  Address: Core Bar London, United Kingdom  Hosted by Qdrant, ClickHouse Events & Dylan Couzon",
-      "url": "https://luma.com/londonsearchweek_2026",
-      "src": "luma.com",
-      "auto": true,
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-25",
-      "dateLabel": "Nov 25",
-      "title": "WTM Berlin x Deutsche Bank Berlin Tech Centre: When AI Joins Your Team",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "Women Techmakers Berlin Join us at the Deutsche Bank Berlin Tech Centre for an evening on two changes at work: how to make your work visible so it leads to your next role, and how teams change when AI agents join them. A",
-      "url": "https://www.meetup.com/wtm-berlin/events/317467703/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
-    {
-      "date": "2026-11-26",
-      "dateLabel": "Nov 26",
-      "title": "PyData Berlin 2026 November Meetup",
-      "venue": "Berlin",
-      "type": "meetup",
-      "eco": false,
-      "confirmed": true,
-      "desc": "PyData Berlin Welcome to the PyData Berlin November meetup!  **Please register on Luma:** [https://luma.com/6q8mo2sp](https://luma.com/6q8mo2sp) We’re using Luma as the sole registration platform for this event. Please r",
-      "url": "https://www.meetup.com/pydata-berlin/events/317368516/",
-      "src": "meetup.com",
-      "auto": true,
-      "month": "November 2026"
-    },
     {
       "date": "2026-11-27",
       "dateLabel": "Nov 27",
@@ -194,6 +152,20 @@
       "desc": "Get up-to-date information at: https://luma.com/agentic-product-search  Hosted by Qdrant",
       "url": "https://luma.com/agentic-product-search",
       "src": "luma.com",
+      "auto": true,
+      "month": "December 2026"
+    },
+    {
+      "date": "2026-12-16",
+      "dateLabel": "Dec 16",
+      "title": "PyData Berlin 2026 December Meetup",
+      "venue": "Berlin",
+      "type": "meetup",
+      "eco": false,
+      "confirmed": true,
+      "desc": "PyData Berlin Welcome to the PyData Berlin December meetup!  **Please register on Luma:** [https://luma.com/3pa09oca](https://luma.com/3pa09oca) We’re using Luma as the sole registration platform for this event. Please r",
+      "url": "https://www.meetup.com/pydata-berlin/events/317605292/",
+      "src": "meetup.com",
       "auto": true,
       "month": "December 2026"
     },
